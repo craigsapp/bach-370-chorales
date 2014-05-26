@@ -3,7 +3,7 @@
 
 Four-part chorales collected after J.S. Bach's death by his son C.P.E. Bach (and finished by Kirnberger, J.S. Bach's student, after C.P.E. Bach's death). Ordered by Breitkopf & H&auml;rtel numbers.
 
-The first complete edition of these chorales was published by Breitkopf & H&auml;rtel between 1784&endash;1787 in four volumes. The first incomplete edition consisting of 200 chorales in two volumes was published by Friedrich Wilhelm Birnstiel in 1765 & 1769, reprinted in 1975 by Georg Olms.
+The first complete edition of these chorales was published by Breitkopf & H&auml;rtel between 1784&ndash;1787 in four volumes. The first incomplete edition consisting of 200 chorales in two volumes was published by Friedrich Wilhelm Birnstiel in 1765 & 1769, reprinted in 1975 by Georg Olms.
 
 This digital edition is referenced against the fourth edition of the chorales by Breitkopf & H&auml;rtel, c. 1875: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach. 4th ed. by Alfred D&ouml;rffel. Breitkopf & H&auml;rtel, Leipzig [c. 1875]. 178 pp. Plate Number: V.A.10. Retypeset c. 1915 as Edition Breitkopf 10. Reprinted by Associated Music Publishers, Inc., New York [c. 1940].
 

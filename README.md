@@ -7,6 +7,9 @@ The first complete edition of these chorales was published by Breitkopf & H&auml
 
 This digital edition is referenced against the fourth edition of the chorales by Breitkopf & H&auml;rtel, c. 1875: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach. 4th ed. by Alfred D&ouml;rffel. Breitkopf & H&auml;rtel, Leipzig [c. 1875]. 178 pp. Plate Number: V.A.10. Retypeset c. 1915 as Edition Breitkopf 10. Reprinted by Associated Music Publishers, Inc., New York [c. 1940].
 
+These digital scores can also be found as a submodule in the 
+[humdrum-data](https://github.com/humdrum-tools/humdrum-data) repository.
+
 
 Data processing tools and other resources
 =========================================

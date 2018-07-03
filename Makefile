@@ -1,4 +1,4 @@
-## bach-371-chorales Makefile
+## bach-370-chorales Makefile
 ##
 ## Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 ## Creation Date: Sun May 25 23:27:32 PDT 2014
@@ -63,7 +63,7 @@ all:
 #
 # make update -- Download any changes in the Github repositories for
 #      each composer.  To download for the first time, type:
-#           git clone https://github.com/craigsapp/bach-371-chorales
+#           git clone https://github.com/craigsapp/bach-370-chorales
 #
 
 update:       github-pull
@@ -431,7 +431,7 @@ pdf-lilypond-gs:
 #
 
 kernscores:
-	mkdir -p kernscores; (cd kernscores; humsplit h://371chorales)
+	mkdir -p kernscores; (cd kernscores; humsplit h://370chorales)
 
 
 

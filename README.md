@@ -34,9 +34,13 @@ typesetter](https://chorales.sapp.org/typesetter) which allows you to
 manipulate the notation of the chorales and transpose them as well as
 generate excerpts of them.
 
+<img width="800" alt="Bach chorale typesetter" src="https://user-images.githubusercontent.com/3487289/50733002-1f80c000-1153-11e9-8a3f-795c48714a8e.png">
+
 They are also available in the [Verovio Humdrum
 Viewer](http://verovio.humdrum.org/?file=chorales), where you can edit
 the musical content and listen to the music.
+
+<img width="800" alt="Verovio Humdrum Viewer" src="https://user-images.githubusercontent.com/3487289/50733024-5f47a780-1153-11e9-8cf6-1a02f8543b8a.png">
 
 
 

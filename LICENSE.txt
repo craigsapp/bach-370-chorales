@@ -1,0 +1,24 @@
+A digital edition of 370 J.S. Bach Chorales
+================================================
+
+Copyright (C) 2009 Craig Stuart Sapp
+https://github.com/craigsapp/bach-370-chorales
+
+Licensed with Attribution-NonCommercial-ShareAlike 4.0 International 
+(CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0
+
+
+Four-part chorales by J.S. Bach collected after J.S. Bach's death by his
+son C.P.E. Bach (and finished by Johann Kirnberger, J.S. Bach's student,
+after C.P.E. Bach's death). Ordered by Breitkopf & Härtel numbers.
+
+This digital edition is referenced against the fourth edition of
+the chorales by Breitkopf & Härtel, c. 1875: 371 vierstimmige
+Choralges&auml;nge von Johann Sebastian Bach. 4th ed. by Alfred
+D&ouml;rffel. Breitkopf & H&auml;rtel, Leipzig [c. 1875]. 178 pp. Plate
+Number: V.A.10. Retypeset c. 1915 as Edition Breitkopf 10. Reprinted by
+Associated Music Publishers, Inc., New York [c. 1940].
+
+See the IMSLP page with scans of the original edition:
+
+https://imslp.org/wiki/371_Vierstimmige_Choralges%C3%A4nge_(Bach%2C_Johann_Sebastian)

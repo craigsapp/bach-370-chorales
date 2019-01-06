@@ -19,3 +19,6 @@ pdf-lilypond-gs
 pdf-musedata
 pdf-musedata-gs
 searchindex.dat
+.jekyll-metadata
+Gemfile.lock
+_site

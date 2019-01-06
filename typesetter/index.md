@@ -2,7 +2,7 @@
 verovio: "true"
 title: "Bach chorale typesetter"
 breadcrumbs: '[["/", "home"], ["/typesetter", "typesetter"]]'
-github: https://github.com/craigsapp/bach-370-chorales/tree/gh-pages/typesetter
+github: https://github.com/craigsapp/bach-370-chorales
 vim: ts=3
 ---
 

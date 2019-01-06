@@ -1,7 +1,3 @@
-
-
-
-<script>
 //
 // Description: Javascript code for the J.S. Bach chorale typesetter.
 // vim: ts=3
@@ -476,7 +472,7 @@ function preFetch(filename) {
 //
 
 window.addEventListener("keydown", function (event) {
-	// console.log(event);
+	console.log(event);
 	var selection = document.querySelector("#file");
 	if (!selection) {
 		return;
@@ -493,6 +489,18 @@ window.addEventListener("keydown", function (event) {
 		newindex = index == 0 ? len-1 : index - 1;
 	} else if (event.key === "ArrowDown") {
 		newindex = index == len-1 ? 0 : index + 1;
+	} else if (event.code === "BracketLeft") {
+		if (event.shiftKey) {
+			adjustNonLinearSpacing(-1)
+		} else {
+			adjustLinearSpacing(-1)
+		}
+	} else if (event.code === "BracketRight") {
+		if (event.shiftKey) {
+			adjustNonLinearSpacing(+1)
+		} else {
+			adjustLinearSpacing(+1)
+		}
 	} else {
 		// check for transposition: 1=c, 2=d, 3=e, 0=original
 		var newkey = -1
@@ -626,6 +634,44 @@ function getMeasureRange() {
 
 //////////////////////////////
 //
+// adjustLinearSpacing -- add 0.01 unit up or down to the 
+//    spacingLinear parameter on the menu.  Then redraw the music.
+//    Integer units which is what the units of the slider is.
+//
+
+function adjustLinearSpacing(amount) {
+	var sl = document.querySelector("#spacingLinear");
+	if (!sl) {
+		return;
+	}
+	var value = parseInt(sl.value) + parseInt(amount);
+	sl.value = value;
+	console.log("VALUE IS SET TO", value);
+}
+
+
+
+//////////////////////////////
+//
+// adjustNonLinearSpacing -- add 0.01 unit up or down to the 
+//    spacingNonLinear parameter on the menu.  Then redraw the music.
+//    Integer units which is what the units of the slider is.
+//
+
+function adjustNonLinearSpacing(amount) {
+	var snl = document.querySelector("#spacingNonLinear");
+	if (!snl) {
+		return;
+	}
+	var value = parseInt(snl.value) + parseInt(amount);
+	snl.value = value;
+	console.log("VALUE IS SET TO", value);
+}
+
+
+
+//////////////////////////////
+//
 // saveChoraleSvg -- Save the image to the local computer (usually
 //   to the Desktop or ~/Downloads folder, depending on the OS).
 //   This is used as the click event listener for the red "Download SVG"
@@ -637,7 +683,5 @@ function saveChoraleSvg() {
 	saveHumdrumSvg("main", filename);
 }
 
-
-</script>
 
 

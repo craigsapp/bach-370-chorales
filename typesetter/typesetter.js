@@ -159,6 +159,30 @@ function displayNotation(opts) {
 			}
 		}
 	}
+	if (opts.staves.toUpperCase() === "SB") {
+		filter += filter ? " | " : "";
+		filter += "extract -k 1,4";
+	}
+	if (opts.staves.toUpperCase() === "AT") {
+		filter += filter ? " | " : "";
+		filter += "extract -k 2,3";
+	}
+	if (opts.staves.toUpperCase() === "S") {
+		filter += filter ? " | " : "";
+		filter += "extract -k 4";
+	}
+	if (opts.staves.toUpperCase() === "A") {
+		filter += filter ? " | " : "";
+		filter += "extract -k 3";
+	}
+	if (opts.staves.toUpperCase() === "T") {
+		filter += filter ? " | " : "";
+		filter += "extract -k 2";
+	}
+	if (opts.staves.toUpperCase() === "B") {
+		filter += filter ? " | " : "";
+		filter += "extract -k 1";
+	}
 	if (opts.staves.toUpperCase() === "GS") {
 		filter += filter ? " | " : "";
 		filter += "satb2gs";
@@ -581,6 +605,18 @@ function getExampleId() {
 	}
 	if (staves.toUpperCase() === "SATB") {
 		output += "-satb";
+	} else if (staves.toUpperCase() === "SB") {
+		output += "-sb";
+	} else if (staves.toUpperCase() === "AT") {
+		output += "-at";
+	} else if (staves.toUpperCase() === "S") {
+		output += "-s";
+	} else if (staves.toUpperCase() === "A") {
+		output += "-a";
+	} else if (staves.toUpperCase() === "T") {
+		output += "-t";
+	} else if (staves.toUpperCase() === "B") {
+		output += "-b";
 	}
 
 	return output;

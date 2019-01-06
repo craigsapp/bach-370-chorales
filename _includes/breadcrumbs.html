@@ -1,0 +1,184 @@
+
+
+<script>
+// vim: ts=3
+//
+// Description: This script corrects the linebreak indenting in the breadcrumbs
+// when the window becomes too narrow and the breadcrumbs line-wrap.
+//
+
+
+//////////////////////////////
+//
+// resize event listener -- Check if the spacer needs to be updated based on linebreaks
+//     in the breadcrumbs.
+//
+
+window.addEventListener("resize", function(event) {
+	checkSpacer();
+});
+
+
+
+//////////////////////////////
+//
+// checkSpacer -- If the breadcrumbs are more than one line high, widen the
+//   spacer element that fakes a margin for the second line.
+//
+
+function checkSpacer() {
+	var breadcrumbs = document.querySelector("#breadcrumbs");
+	if (!breadcrumbs) {
+		return;
+	}
+	var spacer = breadcrumbs.querySelector(".spacer");
+	if (!spacer) {
+		return;
+	}
+	var height = breadcrumbs.offsetHeight;
+
+	var cutoff = 40;
+	if (height < cutoff) {
+		spacer.style.width = "0px";
+	} else {
+		spacer.style.width = "40px";
+	}
+
+}
+
+</script>
+
+
+
+<script>
+// Description: This script adds the breadcrumbs to the file.
+
+// First see if the bread crumbs exist:
+{%if page.breadcrumbs == "" %}
+	var tbreadcrumbs = null;
+{% else %}
+	var tbreadcrumbs = '{{page.breadcrumbs}}';
+{% endif %}
+
+
+// breadbj is the common breadcrumbs for the object documentation pages.
+// To use this, add the line:
+//     breadcrumbs: objects
+// into the liquid header of a index.md file.
+
+var breadobj = [
+	["/",                        "home"                     ],
+	["/object",                  "objects"                  ],
+	["/object/RefRecords",       "RefRecords",     "&laquo;"],
+	["/object/RefRecordEntry",   "RefRecordEntry", "&raquo;"],
+	["/object/Convert",          "Convert",        "|"      ],
+	["/object/RationalNumber",   "Number",         "|"      ],
+	["/object/HumdrumToken",     "Token",          "|"      ],
+	["/object/HumdrumLine",      "Line",           "|"      ],
+	["/object/HumdrumBase",      "Base",           "|"      ],
+	["/object/HumdrumStructure", "Structure",      "&laquo;"],
+	["/object/HumdrumContent",   "Content",        "&laquo;"],
+	["/object/HumdrumAnalysis",  "Analysis",       "&laquo;"],
+	["/object/HumdrumTool",      "Tool",           "&laquo;"],
+	["/object/Humdrum",          "Humdrum",        "&laquo;"],
+	["/object/HumdrumSet",       "Set",            "&raquo;"]
+];
+
+
+// Choose which source the breadcrumbs should come from:
+var breadcrumbs;
+if (tbreadcrumbs.match(/^\s*objects\s*$/)) {
+	breadcrumbs = breadobj;
+} else {
+	if (tbreadcrumbs) {
+		breadcrumbs = JSON.parse(tbreadcrumbs);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener -- Create the breadcrumb line above the title/banner.
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	if (!breadcrumbs) {
+		return;
+	}
+	if (!Array.isArray(breadcrumbs)) {
+		return;
+	}
+	var banner = document.querySelector("#banner");
+	if (!banner) {
+		return;
+	}
+	var div = document.createElement("DIV");
+	div.id = "breadcrumbs";
+	var output = "";
+	for (var i=breadcrumbs.length - 1; i>=0; i--) {
+		if (window.location.pathname.replace(/\/+$/, "") === breadcrumbs[i][0].replace(/\/+$/, "")) {
+			output += "<span class='active' style='font-weight:bold'>" + breadcrumbs[i][1] + "</span>";
+		} else {
+			output += "<a href='" + breadcrumbs[i][0] + "'>" + breadcrumbs[i][1] + "</a>";
+		}
+		if (i > 0) {
+			if (breadcrumbs[i][2]) {
+				output += " " + breadcrumbs[i][2] + " ";
+			} else {
+				output += " &raquo; ";
+			}
+		}
+	}
+	output += "<div class='spacer'>&nbsp;</div>";
+	div.innerHTML = output;
+	banner.appendChild(div);
+	checkSpacer();
+});
+
+
+</script>
+
+
+
+
+<style>
+/* Stylings for the breadcrumbs  */
+
+div#breadcrumbs {
+	position:       absolute;
+	right:          0;
+	display:        inline-block;
+	padding-right:  5px;
+	text-align:     right;
+	letter-spacing: -0.55px;
+	word-spacing:   -1px;
+	margin-top:     -25px;
+	color:          #4276b6;
+}
+#banner .active {
+	font-size: 110%;
+}
+
+.spacer {
+	display: inline-block;
+}
+
+a:hover {
+	color: #55bbee !important;
+}
+
+
+/* first line styling: Make text (not links, unfortunately) on first line yellowish */
+div#breadcrumbs::first-line {
+	color: #d2a82c;
+}
+
+
+@media print, screen and (max-width: 1060px) {
+	div#breadcrumbs {
+		padding-right: 20px;
+	}
+}
+
+</style>

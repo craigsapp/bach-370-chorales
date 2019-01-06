@@ -1,0 +1,282 @@
+<style>
+#banner .fork {
+	display: none;
+}
+</style>
+
+{% include humdrum-scripts.html %}
+{% include banner-tweak.html %}
+{% include breadcrumbs.html %}
+{% include analytics.html %}
+
+
+<script src="/scripts/external/handlebars-v4.0.12.js"></script>
+<script src="/scripts/external/aton.js"></script>
+
+<!-- for documentation pages in /object: -->
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/hopscotch.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<style>
+
+a.anchor {
+    /* needed due to height of fixed header: */
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+h2 {
+	color: #4276b6;
+	font-size: 18px;
+}
+
+h3 {
+	font-style: italic;
+	color: #4276b6;
+	font-size: 16px;
+}
+
+.compressed td {
+	padding: 0px 10px !important; 
+}
+
+pre code {
+	/* need to match hljs style being used? */
+	background-color: #322931 !important;
+}
+
+code.language-parseltongue {
+	line-height: 1rem;
+}
+
+pre {
+	line-height: 1rem;
+	font-size: 0.85rem;
+}
+
+pre.code-example {
+	border-bottom: none;
+	/*
+	border-top: 1px solid #c7c7c7;
+	border-left: 1px solid #c7c7c7;
+	border-right: 1px solid #c7c7c7;
+	*/
+	background-color: #322931; /* to match hljs theme */
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: none;
+} 
+
+pre {
+	background-color: #322931;
+
+}
+
+pre.output-example {
+	color: white;
+	background-color: #322931; /* to match hljs theme */
+	/*
+	border-left: 1px solid #c7c7c7;
+	border-bottom: 1px solid #c7c7c7;
+	border-right: 1px solid #c7c7c7;
+	*/
+	border-top: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border: none;
+}
+
+
+
+
+h1.docslot {
+	font-size: 1.25rem;
+}
+
+h2.docslot {
+	font-size: 1.05rem;
+	color: #4276b6;
+	margin-bottom: -1.1rem;
+}
+
+span.func {
+	font-style: italic;
+	color: #000055;
+}
+span.func::after {
+	content: "()";
+	color: rgba(0,0,0,0.4);
+}
+
+span.obj { 
+	color: #005500;
+}
+
+span.obj.s::after {
+	content: "s";
+	color: #005500;
+}
+
+span.arr::after {
+	content: "[]";
+	font-size: 0.8rem;
+	font-family: Helvetica;
+	color: #00550044;
+}
+
+
+.pval { /* parameter values  for options object mostly */
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+	background-color: #ddd;
+	padding: 3px 3px 2px 3px;
+}
+
+span.param {
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+}
+
+span.var {
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+	color: #550000;
+}
+
+span.var::before, .pre-dot::before, span.func::before {
+	content: ".";
+	font-weight: bold;
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+	color: #44444444;
+	margin-right: -0.1rem;
+}
+
+span.exinterp {
+	/* font-weight: bold; */
+ 	/* font-family: "Sans Mono", "Consolas", "Courier", monospace; */
+}
+span.exinterp::before {
+	content: "**";
+	font-weight: bold;
+	font-size: 80%;
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+	fontsize: 0.7rem;
+	display: inline-block;
+	color: #44444444;;
+	letter-spacing: -0.05rem;
+}
+
+
+.docslot-long-title {
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+	font-weight: bold;
+}
+
+pre.hlexample {
+	padding: 0;
+
+}
+
+pre code {
+ 	font-family: "Sans Mono", "Consolas", "Courier", monospace;
+	line-height: 1rem;
+	font-size: 0.85rem;
+	font-weight: 400;
+	letter-spacing: -0.5px;
+}
+
+footer p > small {
+	display: none;
+}
+
+header h2 {
+	color: #aaaaaa;
+	font-size: 120%;
+	display: block
+}
+
+
+@media print, screen and (max-width: 720px) {
+	header h2 {
+		display: none;
+	}
+	header h1 {
+		margin-top: -10px;
+	}
+}
+
+
+img.figure {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	box-shadow: 10px 10px 5px #cccccc;
+}
+
+
+</style>
+
+<script>
+// Description: Add subtitle
+
+document.addEventListener("DOMContentLoaded", function() {
+	var sitetitle = document.querySelector("header h1");
+	if (!sitetitle) {
+		return;
+	}
+
+	// already implemented via Github repository text.
+	/*
+	var subtitle = document.createElement("h2");
+	subtitle.innerHTML = "A Javascript parser for musical data in the Humdrum syntax";
+	sitetitle.insertAdjacentElement("afterend", subtitle);
+	*/
+	
+	if (window.location.pathname !== "/") {
+		var linkit = "<a href='/'>" + sitetitle.outerHTML; + "</a>";
+		sitetitle.outerHTML = linkit;
+	}
+
+});
+
+</script>
+
+
+<script>
+// add numbers to h1 headings.
+
+
+document.addEventListener("DOMContentLoaded", function () {
+	var h1s = document.querySelectorAll("section h1");
+	if (h1s.length < 3) {
+		// do not number unless there are at least three h1 headings.
+		return;
+	}
+	var i;
+	var text;
+	for (i=0; i<h1s.length; i++) {
+		text = h1s[i].innerHTML;
+		h1s[i].innerHTML = (i+1) + ". " + text;
+	}
+
+	// match numbers on nav
+	var h1x = document.querySelectorAll("nav li.tag-h1");
+	for (i=0; i<h1x.length; i++) {
+		text = h1x[i].innerHTML;
+		h1x[i].innerHTML = (i+1) + ". " + text;
+	}
+
+	// hide the "Project maintained by" text if there is a lot of text in the navigator:
+	if (h1s.length > 7) {
+		var foot = document.querySelector("footer");
+		foot.style.display = "none";
+	}
+});
+
+</script>

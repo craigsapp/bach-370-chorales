@@ -1,0 +1,112 @@
+
+
+
+<!--
+Description:  This is the main menu for parameters on 
+              the Bach chorale typesetter page. Some
+              options and values will be filled in
+              dynamically via javascript code
+              in typesetter.html
+
+vim: ts=3 nowrap
+-->
+
+<table style="margin-left:-27px;" class="chooser">
+	<tr>
+		<th> Title </th>
+		<th> Tonic </th>
+		<th> Octave </th>
+		<th> Staves </th>
+	</tr>
+	<tr>
+		<td>
+			<div id="title-menu"></div>
+		</td>
+
+		<td>
+			<select class="myform" id="tonic">
+				<option value="original">original</option>
+				<option value="c-">C&flat;</option>
+				<option value="c">C</option>
+				<option value="c#">C&sharp;</option>
+				<option value="d-">D&flat;</option>
+				<option value="d">D</option>
+				<option value="d#">D&sharp;</option>
+				<option value="e-">E&flat;</option>
+				<option value="e">E</option>
+				<option value="e#">E&sharp;</option>
+				<option value="f-">F&flat;</option>
+				<option value="f">F</option>
+				<option value="f#">F&sharp;</option>
+				<option value="g-">G&flat;</option>
+				<option value="g">G</option>
+				<option value="g#">G&sharp;</option>
+				<option value="a-">A&flat;</option>
+				<option value="a">A</option>
+				<option value="a#">A&sharp;</option>
+				<option value="b-">B&flat;</option>
+				<option value="b">B</option>
+				<option value="b#">B&sharp;</option>
+			</select>
+		</td>
+
+		<td>
+			<select class="myform" id="octave">
+				<option value="1">+1</option>
+				<option selected value="0">0</option>
+				<option value="-1">-1</option>
+			</select>
+		</td>
+
+		<td>
+			<select class="myform" id="staves">
+				<option value="gs">GS</option>
+				<option value="satb">SATB</option>
+			</select>
+		</td>
+
+	</tr>
+
+	<tr>
+		<td colspan="4">
+			<span style="display:block" id="measures">
+				Measures:
+				<select class="myform" id="barbegin">
+					<option value="0">beginning</option>
+					<option value="$">end</option>
+				</select>
+				to 
+				<select class="myform" id="barend">
+					<option value="0">beginning</option>
+					<option selected value="$">end</option>
+				</select>
+			</span>
+			<span style="white-space:nowrap;" id="spacing">
+				Musical spacing:
+				<span class="range">
+					<input style="width:200px;" class="myform" id="spacingLinear" type="range" min="10" max="60" value="25">
+				</span>
+				<span class="range">
+					<input style="width:200px;" class="myform" id="spacingNonLinear" type="range" min="30" max="80" value="58">
+				</span>
+			</span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<span style="white-space:nowrap; padding-left:10px;">
+				Title:&nbsp;<input class="myform" checked type="checkbox" id="showTitle" value="yes">
+			</span>
+			<span style="white-space:nowrap; padding-left:10px;">
+				Size:
+				<span style="display:inline-block; position:relative; top:3px;">
+					<input style="width:80px;" class="myform" id="size" type="range" min="10" max="60" value="32">
+				</span>
+			</span>
+
+		</td>
+	</tr>
+</table>
+
+
+

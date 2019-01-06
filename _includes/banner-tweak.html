@@ -1,0 +1,76 @@
+<!-- banner.html
+
+	This include sets up the banner of the leap-day theme.
+	generated from the humdrum text. If you include this file
+	on a markdown or HTML page, you must activate the inclusion
+	of the verovio javascript toolkit with the header parameter:
+		verovio :true
+
+	Input Parameters:
+		title			title to display in the banner.  If none given then
+						title in liquid header will be used, or empty otherwise.
+		github      Link to github related to page/website.  If none given
+						then used github link in liquid header.
+
+		fontSize    Size of the title font. Default is "42px"
+-->
+
+
+<style>
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+	color: #555;
+}
+
+#banner #page-title {
+	position:     fixed;
+	left:         50%;
+	margin-left:  -325px;
+	padding:      10px 12px;
+	margin-top:   10px;
+	line-height:  18px;
+	color:          #023676;
+	font-size: {%if include.fontSize %}{{include.fontSize}}{%elsif page.titleSize %}{{page.titleSize}}{%else%}39px{%endif%};
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+}
+
+h1 {
+	color:          #4276b6;
+}
+
+
+</style>
+
+<script>
+// vim: ts=3
+
+
+
+// default values:
+var title   = "{{include.title}}" || "{{page.title}}" || "";
+var github  = "{{include.github}}" || "{{page.github}}" || "https://github.com/humdrum-tools/humdrum-js/tree/master/_includes/humdrum-js";
+
+document.addEventListener("DOMContentLoaded", function () {
+	var banner = document.querySelector("#banner");
+	if (banner) {
+		var link = banner.querySelector("a");
+		var tcon = '<div id="page-title" class="title">';
+		tcon += title;
+		tcon += "</div>";
+		link.outerHTML = tcon;
+	}
+
+	var logo = document.querySelector("#logo");
+	if (logo) {
+		var text = '<a target="_blank" href="' + github + '">';
+		text += logo.outerHTML;
+		text += "</a>";
+		logo.outerHTML = text;
+	}
+});
+
+</script>

@@ -1,0 +1,85 @@
+
+
+
+<!--
+Description: This is the contents of the Humdrum
+        notation plugin example code in the right
+        margins of the webpage.
+
+vim: ts=3 nowrap
+-->
+
+{% include_relative download-button.html %}
+
+<div style="padding-bottom:50px;" id="right-side">
+
+{% include_relative keyboard-shortcuts.html %}
+<br/>
+<br/>
+
+<b>Dynamically typeset examples</b>
+<p class="condensed">
+The black boxes below contain HTML code for a dynamic music example using the
+<a target="_blank" href="https://plugin.humdrum.org">Humdrum notation plugin</a>:
+</p>
+<pre style="padding-bottom:-9px;" class="narrow html">
+<code class="plain" id="x590">&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Example&lt;/title&gt;
+&lt;script src="https://verovio-script.humdrum.org/scripts/verovio-toolkit.js"&gt;&lt;/script&gt;
+&lt;script src="https://plugin.humdrum.org/scripts/humdrum-notation-plugin.js"&gt;&lt;/script&gt;
+&lt;script&gt;var vrvToolkit = new verovio.toolkit()&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div style="width:590px"&gt;</code></pre>
+<pre style="margin-top:-2px; padding-top:2px;" class="javascript narrow">
+<code id="example" class="html">
+
+
+
+
+
+
+
+
+
+</code></pre>
+<pre style="margin-top:-2x; padding-top:2px;" class="plain narrow html">
+<code class="plain">&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p class="condensed">
+
+Copy & paste the above HTML text into your own webpage.  Copy the text in
+all three black boxes to create a new webpage, or copy only the middle
+box's contents if you already have the Humdrum notation plugin setup
+in your page and want to add another example.  The width of the music
+notation on this page is 590 pixels, so when placing in a containing
+element that is 590 pixels, the layout will match the one for the music
+on this page. Adjust the following slider to change the target width
+for the HTML example:
+
+<span class="range">
+	<input style="width:300px;" class="myform" id="targetWidth" type="range" min="100" max="1500" value="590">
+</span>
+</p>
+
+<b style="margin-top:5px;">Editing the music</b>
+<p class="condensed">
+
+If you want to make a change to the music that is not
+available in the typesetting menu (such as correcting a note,
+or cutting off the music in the middle of a measure), then
+you can load the music into <a id="vhv-link" target="_blank"
+href="">Verovio Humdrum Viewer</a>  (see the <a target="_blank"
+href="http://doc.verovio.humdrum.org">documentation</a> for editing
+details.  Also, here is a link to the <a id="vhv-link-compiled"
+target="_blank" href="">compiled</a> version of the data filters, which
+may be easier to edit since it only contains the music that you see on
+the left, not the entire chorale of a range of measures is selected.
+
+</p>
+</div>
+
+
+

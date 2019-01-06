@@ -1,0 +1,24 @@
+
+# Built-in theme to use with website:
+theme: jekyll-theme-leap-day
+
+# the preview server used. Leave as is.
+host: 127.0.0.1
+
+# the port where the preview is rendered. You can leave this as is
+# unless you have other Jekyll builds using this same port that might
+# cause conflicts. in that case, use another port such as 2001.
+port: 3030
+
+# Where the main url for the Verovio toolkit exists:
+veroviourl: https://verovio-script.humdrum.org/scripts/verovio-toolkit.js
+
+# Where the main url for the Humdurm notation plugin exists:
+#notationurl: /scripts/humdrum-notation-plugin.js
+notationurl: https://plugin.humdrum.org/scripts/humdrum-notation-plugin.js
+
+# Where the humdrum.js file is loaded from:
+#humdrumjsurl: /scripts/humdrum.js
+#humdrumjsurl: https://js.humdrum.org/scripts/humdrum.js
+
+

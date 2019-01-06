@@ -1,3 +1,10 @@
+---
+breadcrumbs: '[["/typesetter", "Typesetter"]]'
+github: https://github.com/craigsapp/bach-370-chorales
+---
+
+
+
 370 four-part chorales by Johann Sebastian Bach
 ===============================================
 
@@ -44,4 +51,43 @@ Makefile
 The makefile provided in the base directory includes example data processing
 commands.  Type "make" when in the same directory as the makefile to list the commands that can be run with the makefile.
 
+
+<script>
+
+
+document.addEventListener("DOMContentLoaded", function () {
+	var banner = document.querySelector("#banner");
+	if (!banner) {
+		return;
+	}
+	var breadstring = '{{page.breadcrumbs}}';
+	if (!breadstring) {
+		return;
+	}
+	var bread = JSON.parse(breadstring);
+	var link = banner.querySelector("a");
+	var output = "<div style='background:#ffcc00;' class='fork'>";
+	// output += link.outerHTML;
+	output += "<div style='margin-top:0.25rem; font-size:1.5rem; font-weight:bold; margin-left:0px;'>";
+	for (var i=0; i<bread.length; i++) {
+		output += "<a href='" + bread[i][0] + "'>";
+		output += bread[i][1];
+		output += "</a>";
+		if (i < bread.length - 1) {
+			output += " | ";
+		}
+	}
+	output += "</div>";
+	output += "</div>";
+	link.outerHTML = output;
+
+});
+
+</script>
+
+<style>
+footer small {
+	display: none;
+}
+</style>
 

@@ -57,6 +57,8 @@ These digital scores can also be found as a submodule in the
 Scores
 =============================
 
+<input id="textsearch" type="text" placeholder="Title search"/>
+
 Click on a chorale title in the list below to view the music for the chorale.
 
 <div id="title-list"></div>
@@ -290,6 +292,76 @@ function storeInSessionStorage(hset) {
 		}
 	}
 }
+
+
+
+//////////////////////////////
+//
+// DOMContentLoaded -- event listener for text searching.
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	var textsearch = document.querySelector("#textsearch");
+	textsearch.addEventListener("keyup", function (event) {
+		doTitleSearch(event.target.value);
+	});
+});
+
+
+
+//////////////////////////////
+//
+// doTitleSearch --
+//
+
+function doTitleSearch(text) {
+
+console.log("SEARCING FOR ", text);
+
+	text = text.trim();
+	var works = document.querySelectorAll(".chorale-entry");
+	var matches;
+	var newmatches;
+	var i;
+	var j;
+	var str;
+	var wordlist = text.split(/[^A-Za-z0-9\/-]+/);
+
+	if (wordlist.length > 0) {
+		matches = works;
+		newmatches = works;
+		for (i=0; i<wordlist.length; i++) {
+			matches = newmatches;
+			newmatches = [];
+			var regex = new RegExp("\\b" + wordlist[i], "i");
+			for (j=0; j<matches.length; j++) {
+				str = matches[j].querySelector(".title").textContent;
+				if (str.match(regex)) {
+					newmatches.push(matches[j]);
+				}
+			}
+		}
+		matches = newmatches;
+		// hide all works:
+		for (i=0; i<works.length; i++) {
+			works[i].style.display = "none";
+		}
+		// show matches:
+		for (i=0; i<matches.length; i++) {
+			matches[i].style.display = "block";
+		}
+		
+	} else {
+		// empty search field: show all works
+		for (i=0; i<works.length; i++) {
+			works[i].style.display = "block";
+		}
+	}
+
+}
+
+
+
 
 
 

@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	} else {
 		var uri = URIBASE + "/index.hmd";
 		index.onload = function (x) {
-			buildTitleMenu(index);
+			buildTitleMenu(x);
 			generateNotationFromOptions();
 			sessionStorage.index = x.stringify();
 		};

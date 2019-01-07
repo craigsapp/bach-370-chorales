@@ -68,7 +68,7 @@ Click on a chorale title in the list below to view the music for the chorale.
 var HSET;
 var INDEX;
 
-var LAYOUT = {%include_relative layout.json -%}.CHORALE_LAYOUT;
+var LAYOUT = {%include layout.json -%}.CHORALE_LAYOUT;
 var RLAYOUT = {};
 for (var i=0; i<LAYOUT.length; i++) {
 	RLAYOUT[LAYOUT[i].ID] = LAYOUT[i];

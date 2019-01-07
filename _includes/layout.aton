@@ -27,23 +27,23 @@
 @WIDTH:			590
 @scale:			35
 @spacingLinear:		0.23
-@spacingNonLinear:	0.62
+@spacingNonLinear:	0.66
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor005
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.62
+@spacingLinear:		0.50
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor006
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.35
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -114,16 +114,16 @@
 @ID:			chor015
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.17
-@spacingNonLinear:	0.67
+@spacingLinear:		0.33
+@spacingNonLinear:	0.51
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor016
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.39
+@spacingNonLinear:	0.51
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -178,24 +178,24 @@
 @ID:			chor023
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.44
+@spacingNonLinear:	0.51
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor024
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.26
-@spacingNonLinear:	0.62
+@spacingLinear:		0.42
+@spacingNonLinear:	0.51
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor025
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.62
+@spacingLinear:		0.39
+@spacingNonLinear:	0.51
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -298,8 +298,8 @@
 @ID:			chor038
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.45
-@spacingNonLinear:	0.50
+@spacingLinear:		0.10
+@spacingNonLinear:	0.74
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -402,16 +402,16 @@
 @ID:			chor051
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.39
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor052
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.33
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -419,7 +419,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -427,23 +427,23 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor055
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.22
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor056
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.22
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -451,7 +451,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -459,23 +459,23 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor059
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.62
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor060
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.62
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -483,7 +483,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -491,79 +491,79 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor063
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor064
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.24
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor065
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.37
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor066
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.37
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor067
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.37
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor068
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.37
+@spacingNonLinear:	0.56
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor069
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.22
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor070
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.39
+@spacingNonLinear:	0.46
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor071
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.39
+@spacingNonLinear:	0.46
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -571,63 +571,63 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.59
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor073
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.28
+@spacingNonLinear:	0.59
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor074
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.59
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor075
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.59
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor076
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.52
+@spacingNonLinear:	0.43
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor077
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.50
+@spacingNonLinear:	0.45
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor078
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.50
+@spacingNonLinear:	0.48
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor079
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.31
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -635,119 +635,119 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor081
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor082
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.39
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor083
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.40
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor084
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.40
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor085
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.40
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor086
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.40
+@spacingNonLinear:	0.48
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor087
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.40
+@spacingNonLinear:	0.48
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor088
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.31
+@spacingNonLinear:	0.59
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor089
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.23
+@spacingNonLinear:	0.63
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor090
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.46
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor091
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.44
+@spacingNonLinear:	0.47
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor092
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor093
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.54
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor094
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.54
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -755,39 +755,39 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor096
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.23
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor097
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.19
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor098
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.27
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor099
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.22
+@spacingNonLinear:	0.64
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -795,7 +795,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.64
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -803,7 +803,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.65
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -811,7 +811,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.65
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -819,7 +819,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -827,55 +827,55 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor105
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor106
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor107
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor108
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.32
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor109
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor110
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.24
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -883,7 +883,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -891,7 +891,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -899,31 +899,31 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor114
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor115
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.24
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor116
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.22
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -931,271 +931,271 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor118
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.26
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor119
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.42
+@spacingNonLinear:	0.45
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor120
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.30
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor121
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.30
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor122
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.32
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor123
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.30
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor124
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.30
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor125
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.30
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor126
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor127
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.30
+@spacingNonLinear:	0.61
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor128
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.62
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor129
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.29
+@spacingNonLinear:	0.63
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor130
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.60
+@spacingNonLinear:	0.36
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor131
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.21
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor132
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.14
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor133
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.14
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor134
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.22
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor135
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.19
+@spacingNonLinear:	0.64
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor136
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.19
+@spacingNonLinear:	0.64
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor137
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.38
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor138
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.35
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor139
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.35
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor140
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.35
+@spacingNonLinear:	0.55
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor141
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.51
+@spacingNonLinear:	0.50
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor142
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.51
+@spacingNonLinear:	0.50
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor143
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.43
+@spacingNonLinear:	0.50
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor144
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.40
+@spacingNonLinear:	0.50
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor145
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.46
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor146
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.50
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor147
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.50
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor148
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.50
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor149
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.43
+@spacingNonLinear:	0.52
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor151
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.60
+@spacingNonLinear:	0.41
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -1211,39 +1211,39 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor154
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.24
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor155
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.24
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor156
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.23
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor157
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.23
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -1251,31 +1251,31 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor159
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.21
+@spacingNonLinear:	0.60
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor160
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.53
+@spacingNonLinear:	0.44
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor161
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.14
+@spacingNonLinear:	0.72
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -1283,7 +1283,7 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.56
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -1291,39 +1291,39 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.64
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor164
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.19
+@spacingNonLinear:	0.66
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor165
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.19
+@spacingNonLinear:	0.66
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor166
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.31
+@spacingNonLinear:	0.51
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor167
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.32
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
@@ -1331,24 +1331,26 @@
 @WIDTH:			590
 @scale:			32
 @spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor169
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.32
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor170
 @WIDTH:			590
 @scale:			32
-@spacingLinear:		0.25
-@spacingNonLinear:	0.58
+@spacingLinear:		0.32
+@spacingNonLinear:	0.57
 @@END:			CHORALE_LAYOUT
+
+@@ CONTINUE HERE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:		CHORALE_LAYOUT
 @ID:			chor171

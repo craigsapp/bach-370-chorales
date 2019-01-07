@@ -54,6 +54,12 @@ h1 {
 var title   = "{{include.title}}" || "{{page.title}}" || "";
 var github  = "{{include.github}}" || "{{page.github}}" || "https://github.com/humdrum-tools/humdrum-js/tree/master/_includes/humdrum-js";
 
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --  Add page title and github link to banner.
+//
+
 document.addEventListener("DOMContentLoaded", function () {
 	var banner = document.querySelector("#banner");
 	if (banner) {

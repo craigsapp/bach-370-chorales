@@ -1,0 +1,123 @@
+
+
+
+<style>
+
+.button {
+	/* background: #aa0000; */
+	background: #d2a82c;
+	border-radius: 1rem;
+	font-family: Arial;
+	color: #fafafa;
+	font-size: 1rem;
+	padding: 0px 5px 0px 5px;
+	text-decoration: none;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.button.demo {
+	font-size: 0.80rem;
+	padding: 0px 4px 0px 4px;
+}
+
+.right {
+	display: block;
+	float: right;
+}
+
+.button.small {
+	margin-top: -25px;
+	font-size: 0.70rem;
+	display: block;
+	padding: 0px 2px 0px 2px;
+	opacity: 0.5;
+	float: right;
+}
+
+.button.ranges {
+	white-space: pre;
+	letter-spacing: -1px;
+	font-size: 0.8rem;
+}
+
+.button:hover:not(.demo) {
+	/*
+	background: #009900;
+	text-shadow: 0px 0px 3px #00ff00;
+	box-shadow: 0px 0px 14px #008800;
+	*/
+	background: darkorange;
+	text-shadow: 0px 0px 3px darkorange;
+	box-shadow: 0px 0px 14px darkorange;
+	cursor: pointer;
+}
+
+.button.demo:hover {
+	cursor: default;
+}
+
+</style>
+
+<style>
+
+#download {
+	position: absolute;
+	right: -310px;
+	top: 90px;
+	overflow: hidden;
+	max-height: 200px;
+	min-height: 200px;
+	max-height: 300px;
+	width:300px;
+	letter-spacing: -1px;
+}
+
+@media print, screen and (max-width: 700px) {
+	#download {
+		display: none;
+	}
+}
+
+#right-side {
+	position: absolute;
+	right: -310px;
+	top: 140px;
+	overflow: hidden;
+	max-height: 1000px;
+	min-height: 400px;
+	width:300px;
+}
+pretransparent code.transparent {
+	background-color: transparent !important;
+}
+code#example {
+	color: cyan !important;
+	font-weight: bold;
+}
+.plain {
+	color: #b9b5b8 !important;
+}
+pre.narrow, code.narrow {
+	font-size: 0.8rem;
+	width:100%;
+	height: 100%;
+	overflow: scroll;
+	padding: 0;
+	margin: 0;
+	scrollbar-color: #000;
+}
+pre.narrow::-webkit-scrollbar, code.narrow::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+.condensed {
+	padding-top:10px; 
+	padding:5px; 
+	margin:-5px; 
+	display: inline-block; 
+	font-size:0.7rem; 
+	line-height: 0.9rem !important;
+}
+</style>
+
+

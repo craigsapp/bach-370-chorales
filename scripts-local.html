@@ -1,0 +1,366 @@
+<script>
+// Description:  Code for managing the homepage dynamic content.  See listeners.html
+//     for the initialzation code.
+// vim: ts=3
+
+var HSET;
+var INDEX;
+
+var LAYOUT = {%include layout.json -%}.CHORALE_LAYOUT;
+var RLAYOUT = {};
+for (var i=0; i<LAYOUT.length; i++) {
+	RLAYOUT[LAYOUT[i].ID] = LAYOUT[i];
+}
+
+vrvToolkit.renderData("**kern\n1c\n\*-", {}); // for initializing now to speed up later
+
+
+
+//////////////////////////////
+//
+// buildTitleList -- Create a list of titles that can be clicked on to dispay
+//   the chorale for that title.
+//
+
+function buildTitleList(index) {
+	if (!(index instanceof Humdrum)) {
+		return;
+	}
+	var titlelist = document.querySelector("#title-list");
+
+	var output = "";
+	for (var i=0; i<index.getLineCount(); i++) {
+		if (!index.getLine(i).isData()) {
+			continue;
+		}
+
+		// Filename hard-coded to field index 4 for now. Eventually this will be:
+		// var file = index.getTokenText(i, "**file");
+		var file = index.getToken(i, 0).getText(); 
+		var matches = file.match(/(chor\d+)/);
+		if (matches) {
+			file = matches[1];
+		}
+
+		// Title hard-coded to field index 4 for now. Eventually this will be:
+		// var title = index.getTokenText(i, "**description");
+		var title = index.getToken(i, 4).getText(); // hard-coded to 4 for now.
+
+		output += "<div class='chorale-entry' id='" + file + "-entry'>";
+		output += "<div class='title'>";
+		output += title
+		output += "</div>\n";
+		output += "</div>\n";
+	}
+
+	titlelist.innerHTML = output;
+	titlelist.addEventListener("click", titleEventDelegation);
+}
+
+
+
+//////////////////////////////
+//
+// titleEventDelegation --
+//
+
+function titleEventDelegation(event, clicked_element, visible) {
+console.log("GOT IN TITLE EVENT DELEGATION");
+	var cn = "";
+	var id = "";
+	var element = null;
+
+	if (event) {
+console.log("CLICKED EVENT IS", event);
+		// console.log("CLICKED HERE:", event.path);
+		var chorale = "";
+		for (var i=0; i<event.path.length; i++) {
+			element = event.path[i];
+			id = element.id;
+			cn = element.className;
+			if (id === "title-list") {
+				console.log("NOT CLICKING ON ANYTHING IMPORTANT", id);
+				return;
+			}
+			console.log("CN", cn);
+			if (cn && (typeof cn.baseVal === "undefined") && cn.match(/chorale-entry/)) {
+				// found interesting div
+				break;
+			}
+		}
+		if (!cn.match(/chorale-entry/)) {
+			console.log("CLASSNAME IS STRNAGE", cn);
+			return;
+		}
+	} else {
+console.log("SETTING ELEMENT TO", clicked_element);
+		element = clicked_element;
+	}
+
+	if (!element) {
+		console.log("FOUND NO ELEMENT", element);
+		return;
+	}
+
+	id = element.id;
+	var titlelist = document.querySelector("#title-list");
+	var hid = id.replace("-entry", "");
+	console.log("ID", id, "HID", hid);
+	var section = document.querySelector("section");
+
+	var container = element.querySelector("#" + hid + "-container");
+	if (!container) {
+		// need to create a Humdrum notation program container
+		createEntryButtons(element, hid);
+		var crypt = document.createElement("script");
+		crypt.setAttribute("id", hid);
+		crypt.setAttribute("type", "text/x-humdrum");
+		var hum = HSET.getSegment(hid + ".krn");
+		if (!hum) {
+			console.log("MISSING DATA FOR", hid);
+			return;
+		}
+		crypt.textContent = hum.stringify();
+		element.appendChild(crypt);
+		var options = {};
+		options.source = hid;
+		options.scale = 32;
+		options.staffSpacing = 6;
+		options.filter = "satb2gs";
+		var lentry = RLAYOUT[hid];
+		if (lentry) {
+			options.scale = lentry.scale;
+			options.spacingLinear = lentry.spacingLinear;
+			options.spacingNonLinear = lentry.spacingNonLinear;
+		}
+		element.style.cursor = "zoom-out";
+		displayHumdrum(options);
+	} else {
+		var ebuttons = element.querySelector(".entry-buttons");
+		// already have a container so toggle its display.
+		if (!visible && container.style.display === "block") {
+			// hide the notation
+			container.style.display = "none";
+			element.style.cursor = "zoom-in";
+			if (ebuttons) {
+				ebuttons.style.display = "none";
+			}
+		} else {
+			// show the notation
+			container.style.display = "block";
+			element.style.cursor = "zoom-out";
+			if (ebuttons) {
+				ebuttons.style.display = "block";
+			}
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// storeInSessionStorage --
+//
+
+function storeInSessionStorage(hset) {
+	var keys = hset.getSegmentNames();
+	var matches;
+	for (var i=0; i<keys.length; i++) {
+		matches = keys[i].match(/(chor\d+)/);
+		if (matches) {
+			var seg = matches[1];
+			if (!sessionStorage[seg]) {
+				sessionStorage[seg] = hset.getSegment(keys[i]).stringify();
+			}
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// doTitleSearch -- Search the title.  Input can be a list of one or
+//   more words (which will be searched independently.  The query
+//   words are expected to be at the start of a word in the title
+//   but the end of the query word does not need to match the end of
+//   a title word.
+//
+
+function doTitleSearch(text) {
+	text = text.trim();
+	var works = document.querySelectorAll(".chorale-entry");
+	var matches;
+	var newmatches;
+	var i;
+	var j;
+	var str;
+	var wordlist = text.split(/[^A-Za-z0-9\/-]+/);
+
+	if (wordlist.length > 0) {
+		matches = works;
+		newmatches = works;
+		for (i=0; i<wordlist.length; i++) {
+			matches = newmatches;
+			newmatches = [];
+			var regex = new RegExp("\\b" + wordlist[i], "i");
+			for (j=0; j<matches.length; j++) {
+				str = matches[j].querySelector(".title").textContent;
+				if (str.match(regex)) {
+					newmatches.push(matches[j]);
+				}
+			}
+		}
+		matches = newmatches;
+		// hide all works:
+		for (i=0; i<works.length; i++) {
+			works[i].style.display = "none";
+		}
+		// show matches:
+		for (i=0; i<matches.length; i++) {
+			matches[i].style.display = "block";
+		}
+		
+	} else {
+		// empty search field: show all works
+		for (i=0; i<works.length; i++) {
+			works[i].style.display = "block";
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// hideAllNotation --
+//
+
+function hideAllNotation() {
+	var entries = document.querySelectorAll("div[id$='-container'].humdrum-notation-plugin");
+	var i;
+	for (i=0; i<entries.length; i++) {
+		entries[i].style.display = "none";
+	}
+	entries = document.querySelectorAll(".chorale-entry");
+	for (i=0; i<entries.length; i++) {
+		entries[i].style.cursor = "zoom-in";
+	}
+	entries = document.querySelectorAll(".entry-buttons");
+	for (i=0; i<entries.length; i++) {
+		entries[i].style.display = "none";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showAllNotation --
+//
+
+function showAllNotation(starting, stopping) {
+	// hideAllNotation();
+	var entries = document.querySelectorAll(".chorale-entry");
+	entries[starting-1].scrollIntoView();
+	window.scrollBy(0, -200);
+	var counter = 0;
+	var visible = 1;
+	for (var i=starting-1; i<stopping; i++) {
+		if (i==150) {
+			continue;
+		}
+		(function (entry) {
+			setTimeout(function() {
+				titleEventDelegation(null, entry, visible);
+			}, counter++ * 333)
+		})(entries[i])
+	}
+}
+
+
+//////////////////////////////
+//
+// gotoTopOfList --
+//
+
+function gotoTopOfList() {
+	// var entries = document.querySelectorAll(".chorale-entry");
+	// entries[0].scrollIntoView();
+	// window.scrollBy(0, -250);
+	window.scrollTo(0, 0);
+}
+
+
+
+//////////////////////////////
+//
+// createEntryButtons --
+//
+
+function createEntryButtons(element, hid) {
+
+	var btable = document.createElement("table");
+	var tbody  = document.createElement("tbody");
+	var tr     = document.createElement("tr");
+	var td1     = document.createElement("td");
+	var td2     = document.createElement("td");
+	var td3     = document.createElement("td");
+	
+	btable.style.width = "190px";
+	btable.setAttribute("class", "right entry-buttons");
+	btable.style.marginTop = "5px;";
+	btable.style.marginBottom = "-20px;";
+	btable.style.marginRight = "-10px";
+
+	btable.appendChild(tbody);
+	tbody.appendChild(tr);
+	tr.appendChild(td1);
+	tr.appendChild(td2);
+	tr.appendChild(td3);
+
+	td1.style.whiteSpace = "pre";
+	td2.style.whiteSpace = "pre";
+	td3.style.whiteSpace = "pre";
+	td1.style.padding  = 0;
+	td2.style.padding  = 0;
+	td3.style.padding  = 0;
+
+	td1.style.border = 0;
+	td2.style.border = 0;
+	td3.style.border = 0;
+	tr.style.border = 0;
+
+	element.appendChild(btable);
+
+	var button;
+
+	button = document.createElement("span");
+	button.setAttribute("class" , "button small");
+	button.innerHTML = "Download SVG";
+	td1.appendChild(button);
+
+	button = document.createElement("a");
+	button.setAttribute("target", "_blank");
+	button.setAttribute("class" , "button small");
+	var url = "/typesetter/#" + hid;
+	button.innerHTML = "Typeset";
+	button.setAttribute("href", url);
+	td2.appendChild(button);
+
+	button = document.createElement("a");
+	button.setAttribute("target", "_blank");
+	button.setAttribute("class" , "button small");
+	button.style.marginRight = "-50px;";
+	var url = "http://verovio.humdrum.org/?file=g:craigsapp/bach-370-chorales/kern/" + hid + ".krn";
+	url += "&filter=satb2gs";
+	button.innerHTML = "Edit in VHV";
+	button.setAttribute("href", url);
+	td3.appendChild(button);
+
+}
+
+
+</script>
+

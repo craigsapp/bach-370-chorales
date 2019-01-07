@@ -1,0 +1,109 @@
+<script>
+// Description: event listeners for the chorale homepage.
+// vim: ts=3
+// Global variables (defined in scripts-local.html):
+//    HSET    == HumdrumSet object to download and manage the data files.
+//    INDEX   == Humdrum object with listing of works.
+//    LAYOUT  == Layout information for each chorale, sorted in an array.
+//    RLAYOUT == Layout data sorted by chorale number hash.
+// 
+
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener -- Load the index file, then create the list of works,
+//   then download and store all of the chorales in sessionStorage (useful for buffering
+//   for typesetter page).
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	INDEX = new Humdrum();
+	if (sessionStorage.index) {
+		INDEX.parse(sessionStorage.index);
+		buildTitleList(INDEX);
+		HSET = new HumdrumSet();
+		HSET.onload = storeInSessionStorage;
+		HSET.parse("all-chorales.krns");
+	} else {
+		INDEX.onload = function(x) {
+			buildTitleList(x);
+			sessionStorage.index = x.stringify();
+			HSET = new HumdrumSet();
+			HSET.onload = storeInSessionStorage;
+			HSET.parse("all-chorales.krns");
+		};
+		INDEX.parse("github://craigsapp/bach-370-chorales/index.hmd");
+	}
+});
+
+
+
+//////////////////////////////
+//
+// DomContentLoaded event listener -- Adjusts the banner to add breadcrumb links.
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	var banner = document.querySelector("#banner");
+	if (!banner) {
+		return;
+	}
+	var breadstring = '{{page.breadcrumbs}}';
+	if (!breadstring) {
+		return;
+	}
+	var bread = JSON.parse(breadstring);
+	var link = banner.querySelector("a");
+	var output = "<div style='background:#ffcc00;' class='fork visible'>";
+	// output += link.outerHTML;
+	output += "<div style='margin-top:0.25rem; font-size:1.5rem; ";
+	output += "font-weight:bold; margin-left:0px;'>";
+	for (var i=0; i<bread.length; i++) {
+		output += "<a href='" + bread[i][0] + "'>";
+		output += bread[i][1];
+		output += "</a>";
+		if (i < bread.length - 1) {
+			output += " | ";
+		}
+	}
+	output += "</div>";
+	output += "</div>";
+	link.outerHTML = output;
+	link.style.display = "block";
+	link.className = "";
+});
+
+
+
+//////////////////////////////
+//
+// DOMContentLoaded -- event listener for text searching.
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	var textsearch = document.querySelector("#textsearch");
+	textsearch.addEventListener("keyup", function (event) {
+		doTitleSearch(event.target.value);
+	});
+});
+
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --  Add github link to banner.
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	var github  = "{{include.github}}" || "{{page.github}}" || "https://github.com/craigsapp/bach-370-chorales";
+	var logo = document.querySelector("#logo");
+	if (logo) {
+		var text = '<a target="_blank" href="' + github + '">';
+		text += logo.outerHTML;
+		text += "</a>";
+		logo.outerHTML = text;
+	}
+});
+
+
+</script>
+

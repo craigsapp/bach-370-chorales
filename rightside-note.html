@@ -2,15 +2,21 @@
 
 <style>
 
+
+.sticky {
+	position: sticky;
+	top: 192px;
+	display: inline-block;
+	
+}
+
 #rightside-note {
 	position: absolute;
-	right: -210px;
-	top: 5px;
-	overflow: hidden;
-	max-height: 900px;
-	min-height: 400px;
-	display: block;
-	width:200px;
+	right: -215px;
+	width: 205px;
+	top: 0px;
+	margin-top: 0px;
+	height: 100%;
 }
 @media print, screen and (max-width: 1000px) {
 	#rightside-note {
@@ -23,9 +29,52 @@
 
 <div id="rightside-note">
 
+<div class="sticky">
+
 {% capture rightside %}
 
-Click on a chorale title to view the music.
+<span style="letter-spacing:-0.5px;">Click on a chorale title to view music.</span>
+
+<span class="button" onclick="hideAllNotation(); gotoTopOfList();">Show titles only</span> <br/>
+<span class="button ranges" onclick="showAllNotation(  1, 10)">01&ndash;10</span>
+<span class="button ranges" onclick="showAllNotation( 11, 20)">11&ndash;20</span>
+<span class="button ranges" onclick="showAllNotation( 21, 30)">21&ndash;30</span>
+<span class="button ranges" onclick="showAllNotation( 31, 40)">31&ndash;40</span>
+<span class="button ranges" onclick="showAllNotation( 41, 50)">41&ndash;50</span>
+<span class="button ranges" onclick="showAllNotation( 51, 60)">51&ndash;60</span>
+<span class="button ranges" onclick="showAllNotation( 61, 70)">61&ndash;70</span>
+<span class="button ranges" onclick="showAllNotation( 71, 80)">71&ndash;80</span>
+<span class="button ranges" onclick="showAllNotation( 81, 90)">81&ndash;90</span>
+<span class="button ranges" onclick="showAllNotation( 91,100)">91&ndash;100</span>
+<span class="button ranges" onclick="showAllNotation(101,110)">101&ndash;110</span>
+<span class="button ranges" onclick="showAllNotation(111,120)">111&ndash;120</span>
+<span class="button ranges" onclick="showAllNotation(121,130)">121&ndash;130</span>
+<span class="button ranges" onclick="showAllNotation(131,140)">131&ndash;140</span>
+<span class="button ranges" onclick="showAllNotation(141,150)">141&ndash;150</span>
+<span class="button ranges" onclick="showAllNotation(151,160)">151&ndash;160</span>
+<span class="button ranges" onclick="showAllNotation(161,170)">161&ndash;170</span>
+<span class="button ranges" onclick="showAllNotation(171,180)">171&ndash;180</span>
+<span class="button ranges" onclick="showAllNotation(181,190)">181&ndash;190</span>
+<span class="button ranges" onclick="showAllNotation(191,200)">191&ndash;200</span>
+<span class="button ranges" onclick="showAllNotation(201,210)">201&ndash;210</span>
+<span class="button ranges" onclick="showAllNotation(211,220)">211&ndash;220</span>
+<span class="button ranges" onclick="showAllNotation(221,230)">221&ndash;230</span>
+<span class="button ranges" onclick="showAllNotation(231,240)">231&ndash;240</span>
+<span class="button ranges" onclick="showAllNotation(241,250)">241&ndash;250</span>
+<span class="button ranges" onclick="showAllNotation(251,260)">251&ndash;260</span>
+<span class="button ranges" onclick="showAllNotation(261,270)">261&ndash;270</span>
+<span class="button ranges" onclick="showAllNotation(271,280)">271&ndash;280</span>
+<span class="button ranges" onclick="showAllNotation(281,290)">281&ndash;290</span>
+<span class="button ranges" onclick="showAllNotation(291,300)">291&ndash;300</span>
+<span class="button ranges" onclick="showAllNotation(301,310)">301&ndash;310</span>
+<span class="button ranges" onclick="showAllNotation(311,320)">311&ndash;320</span>
+<span class="button ranges" onclick="showAllNotation(321,330)">321&ndash;330</span>
+<span class="button ranges" onclick="showAllNotation(331,340)">331&ndash;340</span>
+<span class="button ranges" onclick="showAllNotation(341,350)">341&ndash;350</span>
+<span class="button ranges" onclick="showAllNotation(351,360)">351&ndash;360</span>
+<span class="button ranges" onclick="showAllNotation(361,371)">361&ndash;371</span>
+
+
 
 
 {% endcapture rightside %}
@@ -33,6 +82,7 @@ Click on a chorale title to view the music.
 
 </div>
 
+</div>
 
 
 

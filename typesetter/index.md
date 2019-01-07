@@ -18,7 +18,7 @@ vim: ts=3
 
 On this page you can select any chorale and manipulate the layout or
 measure range using the parameter controls given below.  After adjusting
-the music, click on the red download button in the right margin to save
+the music, click on the download button in the right margin to save
 an SVG image of the notation, which can be inserted into your webpages,
 or into a word processor that can load SVG images.
 

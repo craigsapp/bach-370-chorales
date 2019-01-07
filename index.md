@@ -50,8 +50,6 @@ section {
 
 <input id="textsearch" type="text" placeholder="Title search"/>
 
-Click on a chorale title to view the music.
-
 <div id="title-list"></div>
 
 

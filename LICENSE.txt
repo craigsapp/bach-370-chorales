@@ -3,6 +3,7 @@ A digital edition of 370 J.S. Bach Chorales
 
 Copyright (C) 2009 Craig Stuart Sapp
 https://github.com/craigsapp/bach-370-chorales
+https://chorales.sapp.org
 
 Licensed with Attribution-NonCommercial-ShareAlike 4.0 International 
 (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0

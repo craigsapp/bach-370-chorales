@@ -7,6 +7,11 @@ vim: ts=3
 
 <style>
 
+::placeholder {
+  color: #d2a82c;
+  opacity: 0.4;
+}
+
 footer {
 	display: none;
 }

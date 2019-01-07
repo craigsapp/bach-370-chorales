@@ -1,0 +1,51 @@
+
+
+<style>
+
+#leftside-note {
+	position: absolute;
+	left: -210px;
+	top: 5px;
+	overflow: hidden;
+	max-height: 900px;
+	min-height: 400px;
+	display: block;
+	width:200px;
+}
+@media print, screen and (max-width: 1000px) {
+	#leftside-note {
+		display: none;
+	}
+}
+
+
+</style>
+
+<div id="leftside-note">
+
+{% capture leftside %}
+
+<img style="opacity:0.7;" alt="J.S. Bach by August Wagner" src='/images/jsbach-august-wagner.jpg'>
+
+Four-part chorales collected after J.S. Bach's death by his son C.P.E. Bach (and finished by Kirnberger, J.S. Bach's student, after C.P.E. Bach's death). Ordered by Breitkopf & H&auml;rtel numbers.
+
+The first complete edition of these chorales was published by Breitkopf & H&auml;rtel between 1784&ndash;1787 in four volumes. The first incomplete edition consisting of 200 chorales in two volumes was published by Friedrich Wilhelm Birnstiel in 1765 & 1769 (reprinted by Georg Olms, 1975).
+
+This digital edition is referenced against the fourth edition of the chorales by Breitkopf & H&auml;rtel, c. 1875: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach. 4th ed. by Alfred D&ouml;rffel. Breitkopf & H&auml;rtel, Leipzig [c. 1875]. 178 pp. Plate Number: V.A.10. Retypeset c. 1915 as Edition Breitkopf 10. Reprinted by Associated Music Publishers, Inc., New York [c. 1940].
+
+The source edition has 371 chorales, but chorale 150 is not a four-part chorale, so it has been 
+omitted from this analytic edition of the chorales.  However the numbering of the chorales is maintained
+as in the source edition, with file `chor150.krn` not existing in this digital edition.
+
+These digital scores can also be found as a submodule in the 
+[humdrum-data](https://github.com/humdrum-tools/humdrum-data) repository.
+
+
+{% endcapture leftside %}
+{{ leftside | markdownify }}
+
+</div>
+
+
+
+

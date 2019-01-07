@@ -1,0 +1,38 @@
+
+
+<style>
+
+#rightside-note {
+	position: absolute;
+	right: -210px;
+	top: 5px;
+	overflow: hidden;
+	max-height: 900px;
+	min-height: 400px;
+	display: block;
+	width:200px;
+}
+@media print, screen and (max-width: 1000px) {
+	#rightside-note {
+		display: none;
+	}
+}
+
+
+</style>
+
+<div id="rightside-note">
+
+{% capture rightside %}
+
+Click on a chorale title to view the music.
+
+
+{% endcapture rightside %}
+{{ rightside | markdownify }}
+
+</div>
+
+
+
+

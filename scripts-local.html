@@ -58,6 +58,7 @@ function buildTitleList(index) {
 }
 
 
+
 //////////////////////////////
 //
 // buildEventPath --
@@ -92,8 +93,6 @@ function titleEventDelegation(event, clicked_element, visible) {
 			eventpath = buildEventPath(event);
 		}
 
-		// console.log("CLICKED EVENT IS", event);
-		console.log("CLICKED HERE:", eventpath);
 		var chorale = "";
 		for (var i=0; i<eventpath.length; i++) {
 			element = eventpath[i];

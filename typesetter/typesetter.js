@@ -108,7 +108,9 @@ function buildTitleMenu(index) {
 		layout = RLAYOUT[hash];
 	}
 	var titleMenu = document.querySelector("#title-menu");
-	var output = '<select class="myform" name="chorale" id="file">';
+	var output = '<select';
+	output += ' style="width:400px;"';
+	output += ' class="myform" name="chorale" id="file">';
 	for (var i=0; i<index.getLineCount(); i++) {
 		if (!index.getLine(i).isData()) {
 			continue;

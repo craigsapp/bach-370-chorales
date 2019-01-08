@@ -7,8 +7,6 @@
 	left: -210px;
 	top: 5px;
 	overflow: hidden;
-	max-height: 900px;
-	min-height: 400px;
 	display: block;
 	width:200px;
 }
@@ -25,20 +23,58 @@
 
 {% capture leftside %}
 
-<img style="opacity:0.7;" alt="J.S. Bach by August Wagner" src='/images/jsbach-august-wagner.jpg'>
+<img style="opacity:0.7;" title="J.S. Bach by August Wagner" alt="J.S. Bach by August Wagner" src='/images/jsbach-august-wagner.jpg'>
 
-Four-part chorales collected after J.S. Bach's death by his son C.P.E. Bach (and finished by Kirnberger, J.S. Bach's student, after C.P.E. Bach's death). Ordered by Breitkopf & H&auml;rtel numbers.
+Four-part chorales by Johann Sebastian Bach,
+collected after his death by son <a target="blank"
+href="https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach">C.P.E.
+Bach</a>, but finished by <a target="blank"
+href="https://en.wikipedia.org/wiki/Johann_Kirnberger">Kirnberger</a>,
+J.S. Bach's student, after C.P.E. Bach's death. 
 
-The first complete edition of these chorales was published by Breitkopf & H&auml;rtel between 1784&ndash;1787 in four volumes. The first incomplete edition consisting of 200 chorales in two volumes was published by Friedrich Wilhelm Birnstiel in 1765 & 1769 (reprinted by Georg Olms, 1975).
+The first complete edition of these chorales was published by Breitkopf
+& H&auml;rtel between 1784&ndash;1787 in four volumes (<a target="_blank"
+href="https://imslp.org/wiki/371_Vierstimmige_Choralges%C3%A4nge_(Bach%2C_Johann_Sebastian)">view
+on IMSLP</a>).  The first incomplete edition containing 200
+chorales in two volumes was published by <a target="_blank"
+href="https://en.wikipedia.org/wiki/Friedrich_Wilhelm_Birnstiel">Birnstiel</a>
+in 1765 & 1769 (reprinted by Georg Olms, 1975).
 
-This digital edition is referenced against the fourth edition of the chorales by Breitkopf & H&auml;rtel, c. 1875: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach. 4th ed. by Alfred D&ouml;rffel. Breitkopf & H&auml;rtel, Leipzig [c. 1875]. 178 pp. Plate Number: V.A.10. Retypeset c. 1915 as Edition Breitkopf 10. Reprinted by Associated Music Publishers, Inc., New York [c. 1940].
+<a target="_blank" href="https://upload.wikimedia.org/wikipedia/en/e/ef/An-Wasserfl%C3%BCssen-Babylon-Birnstiel-CPE-Bach-Cortot-Berlin-1765.jpg">
+<img style="opacity:0.7;" title="Chorale no. 5 from Birnstiel's edition" alt="Chorale no. 5 from Birnstiel's edition" src='/images/babylon.jpg'>
+</a>
 
-The source edition has 371 chorales, but chorale 150 is not a four-part chorale, so it has been 
-omitted from this analytic edition of the chorales.  However the numbering of the chorales is maintained
-as in the source edition, with file `chor150.krn` not existing in this digital edition.
+This <a target="_blank"
+href="https://github.com/craigsapp/bach-370-chorales/tree/master/kern">digital
+edition</a> is referenced against the fourth edition of the chorales by
+Breitkopf & H&auml;rtel, c.&nbsp;1875: <i>371 vierstimmige Choralges&auml;nge
+von Johann Sebastian Bach</i>, 4th ed. by Alfred D&ouml;rffel, 178
+pp, plate number V.A.10. Re-typeset c.&nbsp;1915 as Edition Breitkopf 10.
+Reprinted by Associated Music Publishers, Inc., New York [c.&nbsp;1940].
 
-These digital scores can also be found as a submodule in the 
-[humdrum-data](https://github.com/humdrum-tools/humdrum-data) repository.
+The source edition has 371 chorales, but chorale 150 is not a four-part
+chorale, so it has been removed from this analytic edition.  However,
+chorale numbering is maintained as in the source edition, with file
+<i>chor150.krn</i> omitted.
+
+All notation on this website is typeset dynamically by the <a
+target="_blank" href="https://www.verovio.org">Verovio</a>
+music engraver, interfaced through the <a target="_blank"
+href="http://plugin.humdrum.org">Humdrum notation plugin</a>.  If you
+click on the <span style="opacity:0.5" class="button demo">Edit in
+VHV</span> button above the music for a chorale, it will be loaded into
+<a target="_blank" href="http://verovio.humdrum.org">Verovio Humdrum
+Viewer</a>, where you can listen to and edit the music. Also, check out
+the <a target="_blank" href="/typesetter">chorale typesetter</a> on this
+website, where you can adjust the layout of a chorale, transpose it,
+extract parts and then save an SVG image of the notation for use
+on your own webpage or as a word-processor figure (saving currently not
+available in Firefox).
+
+These
+digital scores can also be found as a submodule in the <a target="_blank"
+href="https://github.com/humdrum-tools/humdrum-data">humdrum-data</a>
+repository.
 
 
 {% endcapture leftside %}

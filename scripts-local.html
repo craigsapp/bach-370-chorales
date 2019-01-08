@@ -58,6 +58,21 @@ function buildTitleList(index) {
 }
 
 
+//////////////////////////////
+//
+// buildEventPath --
+//
+
+function buildEventPath(event) {
+	var output = [];
+	output.push(event.target);
+	while (output[output.length-1]) {
+		output.push(output[output.length-1].parentNode);
+	}
+	return output;
+}
+
+
 
 //////////////////////////////
 //
@@ -70,11 +85,18 @@ function titleEventDelegation(event, clicked_element, visible) {
 	var element = null;
 
 	if (event) {
+		var eventpath = [];
+		if (event.path) {
+			eventpath = event.path;
+		} else {
+			eventpath = buildEventPath(event);
+		}
+
 		// console.log("CLICKED EVENT IS", event);
-		console.log("CLICKED HERE:", event.path);
+		console.log("CLICKED HERE:", eventpath);
 		var chorale = "";
-		for (var i=0; i<event.path.length; i++) {
-			element = event.path[i];
+		for (var i=0; i<eventpath.length; i++) {
+			element = eventpath[i];
 			id = element.id;
 			cn = element.className;
 			if (id === "title-list") {

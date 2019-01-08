@@ -105,6 +105,10 @@ console.log("SETTING ELEMENT TO", clicked_element);
 	id = element.id;
 	var titlelist = document.querySelector("#title-list");
 	var hid = id.replace("-entry", "");
+	if (hid === "chor150") {
+		// choralte 150 is not in the dataset.
+		return;
+	}
 	console.log("ID", id, "HID", hid);
 	var section = document.querySelector("section");
 

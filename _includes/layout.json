@@ -25,8 +25,8 @@
          "ID": "chor004",
          "WIDTH": "590",
          "scale": "35",
-         "spacingLinear": "0.23",
-         "spacingNonLinear": "0.66"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.37"
       },
       {
          "ID": "chor005",
@@ -102,8 +102,8 @@
          "ID": "chor015",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.33",
-         "spacingNonLinear": "0.51"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.42"
       },
       {
          "ID": "chor016",
@@ -410,8 +410,8 @@
          "ID": "chor059",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.29",
-         "spacingNonLinear": "0.62"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor060",
@@ -872,8 +872,8 @@
          "ID": "chor125",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.30",
-         "spacingNonLinear": "0.57"
+         "spacingLinear": "0.25",
+         "spacingNonLinear": "0.63"
       },
       {
          "ID": "chor126",
@@ -1012,8 +1012,8 @@
          "ID": "chor145",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.46",
-         "spacingNonLinear": "0.52"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.37"
       },
       {
          "ID": "chor146",
@@ -1187,169 +1187,169 @@
          "ID": "chor171",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.28",
          "spacingNonLinear": "0.58"
       },
       {
          "ID": "chor172",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.28",
          "spacingNonLinear": "0.58"
       },
       {
          "ID": "chor173",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor174",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.28",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor175",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor176",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor177",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.67"
       },
       {
          "ID": "chor178",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.23",
          "spacingNonLinear": "0.58"
       },
       {
          "ID": "chor179",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.17",
+         "spacingNonLinear": "0.67"
       },
       {
          "ID": "chor180",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor181",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.40",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor182",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor183",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor184",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor185",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor186",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor187",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.24",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor188",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor189",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor190",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.30",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor191",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor192",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor193",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor194",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor195",
@@ -1369,659 +1369,659 @@
          "ID": "chor197",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.67"
       },
       {
          "ID": "chor198",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.21",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor199",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.47",
+         "spacingNonLinear": "0.49"
       },
       {
          "ID": "chor200",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor201",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.28",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor202",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor203",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor204",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.50",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor205",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.50",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor206",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.52",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor207",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.52",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor208",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor209",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor210",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.63"
       },
       {
          "ID": "chor211",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor212",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor213",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor214",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor215",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor216",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor217",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.24",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor218",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor219",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.24",
+         "spacingNonLinear": "0.49"
       },
       {
          "ID": "chor220",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor221",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor222",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.24",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor223",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor224",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.22",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor225",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor226",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor227",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor228",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.52"
       },
       {
          "ID": "chor229",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor230",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor231",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor232",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor233",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor234",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor235",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor236",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor237",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.44",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor238",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor239",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor240",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor241",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor242",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.33",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor243",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.49",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor244",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.49",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor245",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.50",
+         "spacingNonLinear": "0.52"
       },
       {
          "ID": "chor246",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.43",
+         "spacingNonLinear": "0.52"
       },
       {
          "ID": "chor247",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.43",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor248",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor249",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor250",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.54",
+         "spacingNonLinear": "0.50"
       },
       {
          "ID": "chor251",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.57",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor252",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.59",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor253",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.51",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor254",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.50",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor255",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor256",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.58",
+         "spacingNonLinear": "0.43"
       },
       {
          "ID": "chor257",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.45",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor258",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor259",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.50"
       },
       {
          "ID": "chor260",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor261",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor262",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor263",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.37",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor264",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.34",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor265",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.34",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor266",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor267",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor268",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor269",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor270",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor271",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.42",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor272",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.42",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor273",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor274",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor275",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor276",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.43",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor277",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.40",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor278",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.56",
+         "spacingNonLinear": "0.44"
       },
       {
          "ID": "chor279",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.44"
       },
       {
          "ID": "chor280",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.40",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor281",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.40",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor282",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.51",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor283",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.51",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor284",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.51",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor285",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor286",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.36",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor287",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor288",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.31",
          "spacingNonLinear": "0.58"
       },
       {
          "ID": "chor289",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.28",
          "spacingNonLinear": "0.58"
       },
       {
          "ID": "chor290",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.28",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor291",
@@ -2034,525 +2034,525 @@
          "ID": "chor292",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.21",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor293",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor294",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.64"
       },
       {
          "ID": "chor295",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.66"
       },
       {
          "ID": "chor296",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.66"
       },
       {
          "ID": "chor297",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor298",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.19",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor299",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.19",
+         "spacingNonLinear": "0.62"
       },
       {
          "ID": "chor300",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor301",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.35",
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor302",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.57"
       },
       {
          "ID": "chor303",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.43",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor304",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.43",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor305",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.17",
+         "spacingNonLinear": "0.66"
       },
       {
          "ID": "chor306",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.17",
+         "spacingNonLinear": "0.70"
       },
       {
          "ID": "chor307",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor308",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor309",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor310",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.49"
       },
       {
          "ID": "chor311",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.52"
       },
       {
          "ID": "chor312",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor313",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor314",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.60",
+         "spacingNonLinear": "0.48"
       },
       {
          "ID": "chor315",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.42",
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor316",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.42",
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor317",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.44",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor318",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.32",
+         "spacingNonLinear": "0.54"
       },
       {
          "ID": "chor319",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.32",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor320",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor321",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor322",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor323",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.36",
+         "spacingNonLinear": "0.50"
       },
       {
          "ID": "chor324",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.36",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor325",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.36",
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor326",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.36",
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor327",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.34",
+         "spacingNonLinear": "0.56"
       },
       {
          "ID": "chor328",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.58",
+         "spacingNonLinear": "0.40"
       },
       {
          "ID": "chor329",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.58",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor330",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.59",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor331",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.59",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor332",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.59",
+         "spacingNonLinear": "0.46"
       },
       {
          "ID": "chor333",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.38",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor334",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.28",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor335",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.28",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor336",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.28",
+         "spacingNonLinear": "0.61"
       },
       {
          "ID": "chor337",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor338",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.29",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor339",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.44",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor340",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.42",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor341",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.37",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor342",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.33",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor343",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor344",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor345",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.20",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor346",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.22",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor347",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.23",
+         "spacingNonLinear": "0.65"
       },
       {
          "ID": "chor348",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.33",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor349",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.33",
+         "spacingNonLinear": "0.53"
       },
       {
          "ID": "chor350",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.33",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor351",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.33",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor352",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.31",
+         "spacingNonLinear": "0.55"
       },
       {
          "ID": "chor353",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.30",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor354",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.30",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor355",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.27",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor356",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.26",
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor357",
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.59"
       },
       {
          "ID": "chor358",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.45",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor359",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.45",
+         "spacingNonLinear": "0.45"
       },
       {
          "ID": "chor360",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.45",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor361",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.45",
+         "spacingNonLinear": "0.47"
       },
       {
          "ID": "chor362",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.41",
+         "spacingNonLinear": "0.52"
       },
       {
          "ID": "chor363",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.40",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor364",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor365",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.39",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor366",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.27",
          "spacingNonLinear": "0.58"
       },
       {
@@ -2560,35 +2560,35 @@
          "WIDTH": "590",
          "scale": "32",
          "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingNonLinear": "0.60"
       },
       {
          "ID": "chor368",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
+         "spacingLinear": "0.26",
          "spacingNonLinear": "0.58"
       },
       {
          "ID": "chor369",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.37",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor370",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.37",
+         "spacingNonLinear": "0.51"
       },
       {
          "ID": "chor371",
          "WIDTH": "590",
          "scale": "32",
-         "spacingLinear": "0.25",
-         "spacingNonLinear": "0.58"
+         "spacingLinear": "0.37",
+         "spacingNonLinear": "0.51"
       }
    ]
 }

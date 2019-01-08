@@ -1,3 +1,5 @@
+---
+---
 //
 // Description: Javascript code for the J.S. Bach chorale typesetter.
 // vim: ts=3
@@ -9,6 +11,13 @@ var URIBASE = "github://craigsapp/bach-370-chorales";
 // CURRENTWORK is used to manage the measure number lists in the
 // typesetting menu.
 var CURRENTWORK = new Humdrum();
+var FREEZE = false;
+
+var LAYOUT = {%include layout.json -%}.CHORALE_LAYOUT;
+var RLAYOUT = {};
+for (var i=0; i<LAYOUT.length; i++) {
+	RLAYOUT[LAYOUT[i].ID] = LAYOUT[i];
+}
 
 
 
@@ -59,6 +68,9 @@ document.addEventListener("DOMContentLoaded", function () {
 //
 
 function generateNotationFromOptions() {
+	if (FREEZE) {
+		return;
+	}
 	var forms = document.querySelectorAll(".myform");
 	var options = {};
 	for (var i=0; i<forms.length; i++) {
@@ -87,6 +99,14 @@ function generateNotationFromOptions() {
 //
 
 function buildTitleMenu(index) {
+	var hash = window.location.hash;
+	var sfile = "";
+	var layout = null;
+	if (hash) {
+		hash = hash.replace("#", "");
+		sfile = "kern/" + hash + ".krn";
+		layout = RLAYOUT[hash];
+	}
 	var titleMenu = document.querySelector("#title-menu");
 	var output = '<select class="myform" name="chorale" id="file">';
 	for (var i=0; i<index.getLineCount(); i++) {
@@ -102,7 +122,11 @@ function buildTitleMenu(index) {
 		// var title = index.getTokenText(i, "**description");
 		var title = index.getToken(i, 4).getText(); // hard-coded to 4 for now.
 
-		output += "<option value='" + file + "'>" + title + "</option>\n";
+		if (sfile === file) {
+			output += "<option selected value='" + file + "'>" + title + "</option>\n";
+		} else {
+			output += "<option value='" + file + "'>" + title + "</option>\n";
+		}
 	}
 	output += "</select>";
 	titleMenu.innerHTML = output;
@@ -513,6 +537,16 @@ window.addEventListener("keydown", function (event) {
 		newindex = index == 0 ? len-1 : index - 1;
 	} else if (event.key === "ArrowDown") {
 		newindex = index == len-1 ? 0 : index + 1;
+	} else if (event.key === "+") {
+		adjustSize(+1);
+	} else if (event.key === "=") {
+		adjustSize(+1);
+	} else if (event.key === "-") {
+		adjustSize(-1);
+	} else if (event.key === "_") {
+		adjustSize(-1);
+	} else if (event.key === "d" || event.key == "D") {
+		resetParameters();
 	} else if (event.code === "BracketLeft") {
 		if (event.shiftKey) {
 			adjustNonLinearSpacing(-1)
@@ -690,7 +724,7 @@ function adjustLinearSpacing(amount) {
 //////////////////////////////
 //
 // adjustNonLinearSpacing -- add 0.01 unit up or down to the 
-//    spacingNonLinear parameter on the menu.  Then redraw the music.
+//    spacingNonLinear parameter on the menu.
 //    Integer units which is what the units of the slider is.
 //
 
@@ -701,6 +735,66 @@ function adjustNonLinearSpacing(amount) {
 	}
 	var value = parseInt(snl.value) + parseInt(amount);
 	snl.value = value;
+	console.log("VALUE IS SET TO", value);
+}
+
+
+
+//////////////////////////////
+//
+// resetParameters -- 
+//
+
+function resetParameters(amount) {
+	var selection = document.querySelector("#file");
+	if (!selection) {
+		return;
+	}
+	var index = selection.selectedIndex;
+	var value = selection[index].value;
+	var matches = value.match(/(chor\d+)/);
+	if (!matches) {
+		return;
+	}
+	var chorale = matches[1];
+	var layout = RLAYOUT[chorale];
+
+	FREEZE = true;
+
+	var size = document.querySelector("#size");
+	if (layout.scale) {
+		size.value = layout.scale;
+	}
+
+	var snl = document.querySelector("#spacingNonLinear");
+	if (layout.spacingNonLinear) {
+		snl.value = parseInt(layout.spacingNonLinear * 100.0);;
+	}
+
+	var sl = document.querySelector("#spacingLinear");
+	if (layout.spacingNonLinear) {
+		sl.value = parseInt(layout.spacingLinear * 100.0);;
+	}
+
+	FREEZE = false;
+	generateNotationFromOptions();
+}
+
+
+
+//////////////////////////////
+//
+// adjustSize -- add 1 unit up or down to the size parameter
+//    on the menu.
+//
+
+function adjustSize(amount) {
+	var size = document.querySelector("#size");
+	if (!size) {
+		return;
+	}
+	var value = parseInt(size.value) + parseInt(amount);
+	size.value = value;
 	console.log("VALUE IS SET TO", value);
 }
 

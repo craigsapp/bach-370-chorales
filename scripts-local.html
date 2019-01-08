@@ -65,27 +65,31 @@ function buildTitleList(index) {
 //
 
 function titleEventDelegation(event, clicked_element, visible) {
-console.log("GOT IN TITLE EVENT DELEGATION");
 	var cn = "";
 	var id = "";
 	var element = null;
 
 	if (event) {
-console.log("CLICKED EVENT IS", event);
-		// console.log("CLICKED HERE:", event.path);
+		// console.log("CLICKED EVENT IS", event);
+		console.log("CLICKED HERE:", event.path);
 		var chorale = "";
 		for (var i=0; i<event.path.length; i++) {
 			element = event.path[i];
 			id = element.id;
 			cn = element.className;
 			if (id === "title-list") {
-				console.log("NOT CLICKING ON ANYTHING IMPORTANT", id);
+				// Not clicking on anything important
 				return;
 			}
-			console.log("CN", cn);
-			if (cn && (typeof cn.baseVal === "undefined") && cn.match(/chorale-entry/)) {
-				// found interesting div
-				break;
+			if (cn && (typeof cn.baseVal === "undefined")) {
+				if (cn.match(/chorale-entry/)) {
+					// found interesting div
+					break;
+				} else if (cn.match(/button/)) {
+					// this is a button so ignore the event, since it
+					// should be handled anywhere.
+					return;
+				}
 			}
 		}
 		if (!cn.match(/chorale-entry/)) {
@@ -93,7 +97,6 @@ console.log("CLICKED EVENT IS", event);
 			return;
 		}
 	} else {
-console.log("SETTING ELEMENT TO", clicked_element);
 		element = clicked_element;
 	}
 
@@ -337,6 +340,8 @@ function createEntryButtons(element, hid) {
 	var button;
 
 	button = document.createElement("span");
+	button.setAttribute("onclick", "downloadSvg(event, '" + hid + "')");
+
 	button.setAttribute("class" , "button small");
 	button.innerHTML = "Download SVG";
 	td1.appendChild(button);
@@ -359,6 +364,24 @@ function createEntryButtons(element, hid) {
 	button.setAttribute("href", url);
 	td3.appendChild(button);
 
+}
+
+
+//////////////////////////////
+//
+// downloadSvg -- Action to take when the "Download SVG" button is clicked
+//    for an entry.
+//
+
+function	downloadSvg(event, id) {
+	if (!event) {
+		return;
+	}
+	if (!id) {
+		return;
+	}
+	event.preventDefault();
+	saveHumdrumSvg(id, id + ".svg");
 }
 
 

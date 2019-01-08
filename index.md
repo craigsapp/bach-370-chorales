@@ -25,6 +25,15 @@ footer small {
 	display: none;
 }
 
+div.title:hover {
+	background-color: #f7f7f7;
+}
+
+/* fragile: the space before zoom-out is required: */
+div.chorale-entry[style*="cursor: zoom-out"] div.title:hover {
+	background-color: #fbfbfb;
+}
+
 .visible {
 	display: block !important;
 }

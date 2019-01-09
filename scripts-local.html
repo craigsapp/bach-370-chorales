@@ -12,6 +12,8 @@ for (var i=0; i<LAYOUT.length; i++) {
 	RLAYOUT[LAYOUT[i].ID] = LAYOUT[i];
 }
 
+var KEYS = {};
+
 vrvToolkit.renderData("**kern\n1c\n\*-", {}); // for initializing now to speed up later
 
 
@@ -46,11 +48,13 @@ function buildTitleList(index) {
 		// var title = index.getTokenText(i, "**description");
 		var title = index.getToken(i, 4).getText(); // hard-coded to 4 for now.
 
-		output += "<div class='chorale-entry' id='" + file + "-entry'>";
-		output += "<div class='title'>";
-		output += title
-		output += "</div>\n";
-		output += "</div>\n";
+		if (!file.match(/150/)) {
+			output += "<div class='chorale-entry' id='" + file + "-entry'>";
+			output += "<div class='title'>";
+			output += title
+			output += "</div>\n";
+			output += "</div>\n";
+		}
 	}
 
 	titlelist.innerHTML = output;
@@ -133,7 +137,6 @@ function titleEventDelegation(event, clicked_element, visible) {
 		// choralte 150 is not in the dataset.
 		return;
 	}
-	console.log("ID", id, "HID", hid);
 	var section = document.querySelector("section");
 
 	var container = element.querySelector("#" + hid + "-container");
@@ -201,6 +204,56 @@ function storeInSessionStorage(hset) {
 			if (!sessionStorage[seg]) {
 				sessionStorage[seg] = hset.getSegment(keys[i]).stringify();
 			}
+			storeKeyInformation(hset, keys[i]);
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// storeKeyInformation --
+//
+
+function storeKeyInformation(hset, segname) {
+	var hum = hset.getSegment(segname);
+	if (!hum) {
+		console.log("Could not find segment", segname);
+		return;
+	}
+	var interp = hum.getFirstInterpretation();
+	var index = interp.getLineIndex();
+	var token;
+	var line;
+	for (var i=index+1; i<hum.getLineCount(); i++) {
+		line = hum.getLine(i);
+		if (line.isData()) {
+			break;
+		}
+		if (!line.isInterpretation()) {
+			continue;
+		}
+		token = line.getTokenText(0);
+		var matches = token.match(/^\*([A-Ga-g][#-]*):(.*)/);
+		if (matches) {
+			var segid = segname.replace(/\.[^.]*$/, "");
+			var obj = {};
+			obj.id = segid;
+			obj.key = matches[1];
+			if (matches[2]) {
+				obj.mode = matches[2];
+			}
+			if (obj.key.match(/[A-G]/)) {
+				obj.major = true;
+				obj.minor = false;
+			} else {
+				obj.major = false;
+				obj.minor = true;
+			}
+			obj.tonic = obj.key.toUpperCase();
+			KEYS[segid] = obj;
+			break;
 		}
 	}
 }
@@ -217,6 +270,9 @@ function storeInSessionStorage(hset) {
 //
 
 function doTitleSearch(text) {
+	if (!text) {
+		text = "";
+	}
 	text = text.trim();
 	var works = document.querySelectorAll(".chorale-entry");
 	var matches;
@@ -249,12 +305,104 @@ function doTitleSearch(text) {
 		for (i=0; i<matches.length; i++) {
 			matches[i].style.display = "block";
 		}
-		
 	} else {
 		// empty search field: show all works
 		for (i=0; i<works.length; i++) {
 			works[i].style.display = "block";
 		}
+	}
+
+	var keyelement = document.querySelector("#key");
+	var mkey = "";
+	if (keyelement) {
+		mkey = keyelement[keyelement.selectedIndex].value;
+	}
+
+	if (mkey) {
+		for (i=0; i<works.length; i++) {
+			var id = works[i].id.replace(/-entry$/, "");
+			var keyinfo = KEYS[id];
+			if (!keyinfo) {
+				console.log("NO KEYINFO FOR ", id);
+				continue;
+			}
+			if (mkey === "major") {
+				if (!keyinfo.major) {
+					works[i].style.display = "none";
+				}
+			} else if (mkey === "minor") {
+				if (!keyinfo.minor) {
+					works[i].style.display = "none";
+				}
+			}
+		}
+	}
+
+	var tonicelement = document.querySelector("#tonic");
+	var mtonic = "";
+	if (tonicelement) {
+		mtonic = tonicelement[tonicelement.selectedIndex].value;
+	}
+
+	if (mtonic) {
+		for (i=0; i<works.length; i++) {
+			var id = works[i].id.replace(/-entry$/, "");
+			var keyinfo = KEYS[id];
+			if (!keyinfo) {
+				console.log("NO KEYINFO FOR ", id);
+				continue;
+			}
+			if (mtonic !== keyinfo.tonic) {
+				works[i].style.display = "none";
+			}
+		}
+	}
+
+	var modelement = document.querySelector("#mode");
+	var mmode = "";
+	if (modelement) {
+		mmode = modelement[modelement.selectedIndex].value;
+	}
+
+	if (mmode) {
+		for (i=0; i<works.length; i++) {
+			var id = works[i].id.replace(/-entry$/, "");
+			var keyinfo = KEYS[id];
+			if (!keyinfo) {
+				console.log("NO KEYINFO FOR ", id);
+				continue;
+			}
+			if (mmode === "only") {
+				if (!keyinfo.mode) {
+					works[i].style.display = "none";
+				}
+			} else if (mmode === "none") {
+				if (keyinfo.mode) {
+					works[i].style.display = "none";
+				}
+			} else {
+				if (mmode !== keyinfo.mode) {
+					works[i].style.display = "none";
+				}
+			}
+		}
+	}
+
+
+
+
+	var count = 0;
+	for (i=0; i<works.length; i++) {
+		if (works[i].style.display !== "none") {
+			count++;
+		}
+	}
+
+	var mc = document.querySelector("#match-count");
+	if (count < 370) {
+		mc.innerHTML = count;
+	} else {
+		mc.innerHTML = "";
 	}
 }
 

@@ -244,13 +244,21 @@ function displayNotation(opts) {
 			options.spacingNonLinear = parseInt(opts.spacingNonLinear) / 100.0;
 		}
 
+		// Set the default staff distance for GS and SATB layouts:
+		options.spacingStaff = filter.match(/satb/) ? 6 : 10;
+
+		if (typeof opts.spacingStaff !== "undefined") {
+			options.spacingStaff = parseInt(opts.spacingStaff);
+		}
+
+		if (typeof opts.spacingSystem !== "undefined") {
+			options.spacingSystem = parseInt(opts.spacingSystem);
+		}
+
 		if (size) {
 			// scale is not normalized to the range of 0.0 to 1.0:
 			options.scale = parseInt(opts.size);
 		}
-
-		// Set the minimum staff distance for GS and SATB layouts:
-		options.spacingStaff = filter.match(/satb/) ? 6 : 10;
 
 		// This code will add the BWV numbers on the left 
 		// side of the top system in the music.  The header option
@@ -261,6 +269,7 @@ function displayNotation(opts) {
 		// not displayHumdrum(), which will ignore it.
 		options.targetWidth = opts.targetWidth;
 		options.file = opts.file;
+console.log("OPTIONS", options);
 		displayHumdrum(options);
 	
 		// Post-processing to update the webpage related to

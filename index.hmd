@@ -3,14 +3,14 @@
 **file	**sort	**available	**pdf	**description
 kern/chor001.krn	001	Y	chor001	&nbsp;&nbsp;&nbsp;&nbsp;1. <link>Aus meines Herzens Grunde</link>, <small>BWV 269</small> 
 kern/chor002.krn	002	Y	chor002	&nbsp;&nbsp;&nbsp;&nbsp;2. <link>Ich dank dir, lieber Herre</link>, <small>BWV 347</small> 
-kern/chor003.krn	003	Y	chor003	&nbsp;&nbsp;&nbsp;&nbsp;3. <link>Ach Gott vom Himmel sieh darein</link>, <small>BWV 153/1</small> 
+kern/chor003.krn	003	Y	chor003	&nbsp;&nbsp;&nbsp;&nbsp;3. <link>Ach Gott vom Himmel sieh darein</link>, <small>BWV 153/1</small> (Dorian)
 kern/chor004.krn	004	Y	chor004	&nbsp;&nbsp;&nbsp;&nbsp;4. <link>Es ist das Heil uns kommen her</link>, <small>BWV 86/6</small> 
 kern/chor005.krn	005	Y	chor005	&nbsp;&nbsp;&nbsp;&nbsp;5. <link>An Wasserfl&uuml;ssen Babylon</link>, <small>BWV 267</small> 
 kern/chor006.krn	006	Y	chor006	&nbsp;&nbsp;&nbsp;&nbsp;6. <link>Christus, der ist mein Leben</link>, <small>BWV 281</small> 
 kern/chor007.krn	007	Y	chor007	&nbsp;&nbsp;&nbsp;&nbsp;7. <link>Nun lob, mein Seel, den Herren</link>, <small>BWV 17/7</small> 
-kern/chor008.krn	008	Y	chor008	&nbsp;&nbsp;&nbsp;&nbsp;8. <link>Freuet euch, ihr Christen alle</link>, <small>BWV 40/8</small> 
+kern/chor008.krn	008	Y	chor008	&nbsp;&nbsp;&nbsp;&nbsp;8. <link>Freuet euch, ihr Christen alle</link>, <small>BWV 40/8</small> (Dorian)
 kern/chor009.krn	009	Y	chor009	&nbsp;&nbsp;&nbsp;&nbsp;9. <link>Ermuntre dich, mein schwacher Geist</link>, <small>BWV 248/12</small> 
-kern/chor010.krn	010	Y	chor010	&nbsp;&nbsp;10. <link>Aus tiefer Not schrei ich zu dir</link>, <small>BWV 38/6</small> (Phrygian)
+kern/chor010.krn	010	Y	chor010	&nbsp;&nbsp;10. <link>Aus tiefer Not schrei ich zu dir</link>, <small>BWV 38/6</small>
 kern/chor011.krn	011	Y	chor011	&nbsp;&nbsp;11. <link>Jesu, nun sei gepreiset</link>, <small>BWV 41/6 & 171/6</small> 
 kern/chor012.krn	012	Y	chor012	&nbsp;&nbsp;12. <link>Puer natus in Bethlehem</link>, <small>BWV 65/2</small> 
 kern/chor013.krn	013	Y	chor013	&nbsp;&nbsp;13. <link>Allein zu dir, Herr Jesu Christ</link>, <small>BWV 33/6</small> 
@@ -19,13 +19,13 @@ kern/chor015.krn	015	Y	chor015	&nbsp;&nbsp;15. <link>Christ lag in Todesbanden</
 kern/chor016.krn	016	Y	chor016	&nbsp;&nbsp;16. <link>Es woll' uns Gott gen&auml;dig sein</link>, <small>BWV 311</small> (Phrygian)
 kern/chor017.krn	017	Y	chor017	&nbsp;&nbsp;17. <link>Erschienen ist der herrliche Tag</link>, <small>BWV 145/5</small> (Dorian)
 kern/chor018.krn	018	Y	chor018	&nbsp;&nbsp;18. <link>Gottes Sohn ist kommen</link>, <small>BWV 318</small> 
-kern/chor019.krn	019	Y	chor019	&nbsp;&nbsp;19. <link>Ich hab mein Sach Gott heimgestellt</link>, <small>BWV 351</small> 
+kern/chor019.krn	019	Y	chor019	&nbsp;&nbsp;19. <link>Ich hab mein Sach Gott heimgestellt</link>, <small>BWV 351</small> (Dorian)
 kern/chor020.krn	020	Y	chor020	&nbsp;&nbsp;20. <link>Ein feste Burg ist unser Gott</link>, <small>BWV 302</small> 
 kern/chor021.krn	021	Y	chor021	&nbsp;&nbsp;21. <link>Herzlich tut mich verlangen</link>, <small>BWV 153/5</small> (Phrygian)
 kern/chor022.krn	022	Y	chor022	&nbsp;&nbsp;22. <link>Schm&uuml;cke dich, o liebe Seele</link>, <small>BWV 180/7</small> 
 kern/chor023.krn	023	Y	chor023	&nbsp;&nbsp;23. <link>Zeuch ein zu deinen Toren</link>, <small>BWV 28/6</small> 
 kern/chor024.krn	024	Y	chor024	&nbsp;&nbsp;24. <link>Valet will ich dir geben</link>, <small>BWV 415</small> 
-kern/chor025.krn	025	Y	chor025	&nbsp;&nbsp;25. <link>Wo soll ich fliehen hin</link>, <small>BWV 148/6</small> 
+kern/chor025.krn	025	Y	chor025	&nbsp;&nbsp;25. <link>Wo soll ich fliehen hin</link>, <small>BWV 148/6</small> (Dorian)
 kern/chor026.krn	026	Y	chor026	&nbsp;&nbsp;26. <link>O Ewigkeit, du Donnerwort</link>, <small>BWV 20/7,11</small> 
 kern/chor027.krn	027	Y	chor027	&nbsp;&nbsp;27. <link>Es spricht der Unweisen Mund</link>, <small>BWV 308</small> 
 kern/chor028.krn	028	Y	chor028	&nbsp;&nbsp;28. <link>Nun komm, der Heiden Heiland</link>, <small>BWV 36(2)/8</small> 
@@ -82,12 +82,12 @@ kern/chor078.krn	078	Y	.	&nbsp;&nbsp;78. <link>Herzliebester Jesu, was hast du v
 kern/chor079.krn	079	Y	.	&nbsp;&nbsp;79. <link>Heut triumphieret Gottes Sohn</link>, <small>BWV 342</small> 
 kern/chor080.krn	080	Y	.	&nbsp;&nbsp;80. <link>O Haupt voll Blut und Wunden</link>, <small>BWV 244/44</small> 
 kern/chor081.krn	081	Y	.	&nbsp;&nbsp;81. <link>Christus, der uns delig macht</link>, <small>BWV 245/15</small> 
-kern/chor082.krn	082	Y	.	&nbsp;&nbsp;82. <link>O gro&szlig;er Gott von Macht</link>, <small>BWV 46/6</small> 
+kern/chor082.krn	082	Y	.	&nbsp;&nbsp;82. <link>O gro&szlig;er Gott von Macht</link>, <small>BWV 46/6</small> (Dorian)
 kern/chor083.krn	083	Y	.	&nbsp;&nbsp;83. <link>Jesu Leiden, Pein und Tod</link>, <small>BWV 245/14</small> 
 kern/chor084.krn	084	Y	.	&nbsp;&nbsp;84. <link>Nun bitten wir den heiligen Geist</link>, <small>BWV 197/5</small> 
 kern/chor085.krn	085	Y	.	&nbsp;&nbsp;85. <link>O Gott, du frommer Gott</link>, <small>BWV 45/7</small> 
 kern/chor086.krn	086	Y	.	&nbsp;&nbsp;86. <link>Wie sch&ouml;n leuchtet der Morgenstern</link>, <small>BWV 36(1) & 36(2)/4</small> 
-kern/chor087.krn	087	Y	.	&nbsp;&nbsp;87. <link>Du, o sch&ouml;nes Weltgeb&auml;ude</link>, <small>BWV 56/5</small> 
+kern/chor087.krn	087	Y	.	&nbsp;&nbsp;87. <link>Du, o sch&ouml;nes Weltgeb&auml;ude</link>, <small>BWV 56/5</small> (Dorian)
 kern/chor088.krn	088	Y	.	&nbsp;&nbsp;88. <link>Helft mir Gotts G&uuml;te preisen</link>, <small>BWV 28/6</small> 
 kern/chor089.krn	089	Y	.	&nbsp;&nbsp;89. <link>O Haupt voll Blut und Wunden</link>, <small>BWV 244/62</small> 
 kern/chor090.krn	090	Y	.	&nbsp;&nbsp;90. <link>Hast du denn, Jesu, dein Angesicht</link>, <small>BWV 57/8</small> 
@@ -110,19 +110,19 @@ kern/chor106.krn	106	Y	.	106. <link>Jesu Leiden, Pein und Tod</link>, <small>BWV
 kern/chor107.krn	107	Y	.	107. <link>Herzlich lieb hab ich dich, o Herr</link>, <small>BWV 245/40</small> 
 kern/chor108.krn	108	Y	.	108. <link>Valet will ich dir geben</link>, <small>BWV 245/26</small> 
 kern/chor109.krn	109	Y	.	109. <link>Singen wir aus Herzensgrund</link>, <small>BWV 187/7</small> 
-kern/chor110.krn	110	Y	.	110. <link>Vater unser im Himmelreich</link>, <small>BWV 102/7</small> 
+kern/chor110.krn	110	Y	.	110. <link>Vater unser im Himmelreich</link>, <small>BWV 102/7</small> (Dorian)
 kern/chor111.krn	111	Y	.	111. <link>Herzliebester Jesu, was hast du verbrochen</link>, <small>BWV 245/17</small> 
 kern/chor112.krn	112	Y	.	112. <link>Wer nur den lieben Gott l&auml;&szlig;t walten</link>, <small>BWV 84/5</small> 
-kern/chor113.krn	113	Y	.	113. <link>Christus, der uns selig macht</link>, <small>BWV 245/37</small> (Phrygian?)
+kern/chor113.krn	113	Y	.	113. <link>Christus, der uns selig macht</link>, <small>BWV 245/37</small> (Dorian)
 kern/chor114.krn	114	Y	.	114. <link>Von Gott will ich nicht lassen</link>, <small>BWV 419</small> 
 kern/chor115.krn	115	Y	.	115. <link>Was mein Gott will, das g'scheh allzeit</link>, <small>BWV 244/25</small> 
 kern/chor116.krn	116	Y	.	116. <link>Nun lob, mein Seel, den Herren</link>, <small>BWV 29/8</small> 
 kern/chor117.krn	117	Y	.	117. <link>Nun ruhen alle W&auml;lder</link>, <small>BWV 244/10</small> 
 kern/chor118.krn	118	Y	.	118. <link>In dich hab ich gehoffet, Herr</link>, <small>BWV 244/32</small> 
-kern/chor119.krn	119	Y	.	119. <link>Christ, unser Herr zum Jordan kam</link>, <small>BWV 176/6</small> 
+kern/chor119.krn	119	Y	.	119. <link>Christ, unser Herr zum Jordan kam</link>, <small>BWV 176/6</small> (Dorian)
 kern/chor120.krn	120	Y	.	120. <link>Was mein Gott will, das g'scheh allzeit</link>, <small>BWV 103/6</small> 
 kern/chor121.krn	121	Y	.	121. <link>Werde munter, mein Gem&uuml;te</link>, <small>BWV 244/40</small> 
-kern/chor122.krn	122	Y	.	122. <link>Ist Gott mein Schild und Helfersmann</link>, <small>BWV 85/6</small> 
+kern/chor122.krn	122	Y	.	122. <link>Ist Gott mein Schild und Helfersmann</link>, <small>BWV 85/6</small> (Dorian)
 kern/chor123.krn	123	Y	.	123. <link>Helft mir Gotts G&uuml;te preisen</link>, <small>BWV 183/5</small> 
 kern/chor124.krn	124	Y	.	124. <link>Auf, auf, mein Herz, und du mein ganzer Sinn</link>, <small>BWV 268</small> 
 kern/chor125.krn	125	Y	.	125. <link>Allein Gott in der H&ouml;h sei Ehr</link>, <small>BWV 104/6</small> 
@@ -155,26 +155,26 @@ kern/chor151.krn	151	Y	.	151. <link>Meinen Jesum la&szlig; ich nicht, Jesus</lin
 kern/chor152.krn	152	Y	.	152. <link>Meinen Jesum la&szlig; ich nicht, weil</link>, <small>BWV 154/8</small> 
 kern/chor153.krn	153	Y	.	153. <link>Alle Menschen m&uuml;ssen sterben</link>, <small>BWV 262</small> 
 kern/chor154.krn	154	Y	.	154. <link>Der du bist drei in Einigkeit</link>, <small>BWV 293</small> (Mixolydian)
-kern/chor155.krn	155	Y	.	155. <link>Hilf, Herr Jesu, la&szlig; gelingen</link>, <small>BWV 344</small> 
+kern/chor155.krn	155	Y	.	155. <link>Hilf, Herr Jesu, la&szlig; gelingen</link>, <small>BWV 344</small> (Dorian)
 kern/chor156.krn	156	Y	.	156. <link>Ach Gott, wie manches Herzeleid</link>, <small>BWV 3/6</small> 
 kern/chor157.krn	157	Y	.	157. <link>Wo Gott zum Haus nicht gibt sein' Gunst</link>, <small>BWV 438</small> 
 kern/chor158.krn	158	Y	.	158. <link>Der Tag, der ist so freudenreich</link>, <small>BWV 294</small> 
 kern/chor159.krn	159	Y	.	159. <link>Als der g&uuml;tige Gott</link>, <small>BWV 264</small> 
 kern/chor160.krn	160	Y	.	160. <link>Gelobet seist du, Jesu Christ</link>, <small>BWV 64/2</small> (Mixolydian)
 kern/chor161.krn	161	Y	.	161. <link>Ihr Gestirn, ihr hohen L&uuml;fte</link>, <small>BWV 366</small> 
-kern/chor162.krn	162	Y	.	162. <link>Das alte Jahr vergangen ist</link>, <small>BWV 288</small> 
+kern/chor162.krn	162	Y	.	162. <link>Das alte Jahr vergangen ist</link>, <small>BWV 288</small> (Dorian)
 kern/chor163.krn	163	Y	.	163. <link>F&uuml;r Freuden la&szlig;t uns springen</link>, <small>BWV 313</small> 
 kern/chor164.krn	164	Y	.	164. <link>Herr Gott, dich loben alle wir</link>, <small>BWV 326</small> 
 kern/chor165.krn	165	Y	.	165. <link>O Lamm Gottes, unschuldig</link>, <small>BWV 401</small> 
-kern/chor166.krn	166	Y	.	166. <link>Es stehn vor Gottes Throne</link>, <small>BWV 309</small> 
+kern/chor166.krn	166	Y	.	166. <link>Es stehn vor Gottes Throne</link>, <small>BWV 309</small> (Dorian)
 kern/chor167.krn	167	Y	.	167. <link>Du gro&szlig;er Schmerzensmann</link>, <small>BWV 300</small> 
-kern/chor168.krn	168	Y	.	168. <link>Heut ist, o Mensch, ein gro&szlig;er Trauertag</link>, <small>BWV 341</small> 
+kern/chor168.krn	168	Y	.	168. <link>Heut ist, o Mensch, ein gro&szlig;er Trauertag</link>, <small>BWV 341</small> (Dorian)
 kern/chor169.krn	169	Y	.	169. <link>Jesu, der du selbsten wohl</link>, <small>BWV 355</small> 
 kern/chor170.krn	170	Y	.	170. <link>Nun komm, der Heiden Heiland</link>, <small>BWV 62/6</small> 
-kern/chor171.krn	171	Y	.	171. <link>Schaut, ihr S&uuml;nder</link>, <small>BWV 408</small> 
+kern/chor171.krn	171	Y	.	171. <link>Schaut, ihr S&uuml;nder</link>, <small>BWV 408</small> (Dorian)
 kern/chor172.krn	172	Y	.	172. <link>Sei gegr&uuml;&szlig;et, Jesu g&uuml;tig</link>, <small>BWV 410</small> 
 kern/chor173.krn	173	Y	.	173. <link>O Herzensangst, o Bangigkeit</link>, <small>BWV 400</small> 
-kern/chor174.krn	174	Y	.	174. <link>Jesus Christus, unser Heiland</link>, <small>BWV 364</small> 
+kern/chor174.krn	174	Y	.	174. <link>Jesus Christus, unser Heiland</link>, <small>BWV 364</small> (Dorian)
 kern/chor175.krn	175	Y	.	175. <link>Jesus, meine Zuversicht</link>, <small>BWV 365</small> 
 kern/chor176.krn	176	Y	.	176. <link>Erstanden ist der heil'ge Christ</link>, <small>BWV 306</small>
 kern/chor177.krn	177	Y	.	177. <link>Ach bleib bei uns, Herr Jesu Christ</link>, <small>BWV 253</small> 
@@ -185,8 +185,8 @@ kern/chor181.krn	181	Y	.	181. <link>Gott hat das Evangelium</link>, <small>BWV 3
 kern/chor182.krn	182	Y	.	182. <link>W&auml;r Gott nicht mit uns diese Zeit</link>, <small>BWV 14/5</small> 
 kern/chor183.krn	183	Y	.	183. <link>Nun freut euch, lieben Christen g'mein</link>, <small>BWV 388</small> 
 kern/chor184.krn	184	Y	.	184. <link>Christ lag in Todesbanden</link>, <small>BWV 4/8</small> (Dorian)
-kern/chor185.krn	185	Y	.	185. <link>Nun freut euch, Gottes Kinder all</link>, <small>BWV 387</small> 
-kern/chor186.krn	186	Y	.	186. <link>Ach Gott, erh&ouml;r mein Seufzen</link>, <small>BWV 254</small> 
+kern/chor185.krn	185	Y	.	185. <link>Nun freut euch, Gottes Kinder all</link>, <small>BWV 387</small> (Dorian)
+kern/chor186.krn	186	Y	.	186. <link>Ach Gott, erh&ouml;r mein Seufzen</link>, <small>BWV 254</small> (Dorian)
 kern/chor187.krn	187	Y	.	187. <link>Komm, Gott Sch&ouml;pfer, heiliger Geist</link>, <small>BWV 370</small> (Mixolydian)
 kern/chor188.krn	188	Y	.	188. <link>Ich dank dir sch&ouml;n durch deinen Sohn</link>, <small>BWV 349</small> 
 kern/chor189.krn	189	Y	.	189. <link>Herr Jesu Christ, wahr Mensch und Gott</link>, <small>BWV 336</small> 
@@ -203,14 +203,14 @@ kern/chor199.krn	199	Y	.	199. <link>Hilf, Gott, la&szlig; mir's gelingen</link>,
 kern/chor200.krn	200	Y	.	200. <link>Christus ist erstanden, hat &uuml;berwunden</link>, <small>BWV 284</small> 
 kern/chor201.krn	201	Y	.	201. <link>O Mensch, bewein dein' S&uuml;nde gro&szlig;</link>, <small>BWV 402</small> 
 kern/chor202.krn	202	Y	.	202. <link>O wir armen S&uuml;nder</link>, <small>BWV 407</small> 
-kern/chor203.krn	203	Y	.	203. <link>O Mensch, schau Jesum Christum an</link>, <small>BWV 403</small> 
+kern/chor203.krn	203	Y	.	203. <link>O Mensch, schau Jesum Christum an</link>, <small>BWV 403</small> (Dorian)
 kern/chor204.krn	204	Y	.	204. <link>Wer wei&szlig;, wie nahe mir mein Ende</link>, <small>BWV 166/6</small> 
 kern/chor205.krn	205	Y	.	205. <link>Herr Gott, dich loben wir</link>, <small>BWV 328</small> (Phrygian)
-kern/chor206.krn	206	Y	.	206. <link>So gibst du nun, mein Jesu, gute Nacht</link>, <small>BWV 412</small> 
+kern/chor206.krn	206	Y	.	206. <link>So gibst du nun, mein Jesu, gute Nacht</link>, <small>BWV 412</small> (Dorian)
 kern/chor207.krn	207	Y	.	207. <link>Des heil'gen Geistes reiche Gnad</link>, <small>BWV 295</small> 
 kern/chor208.krn	208	Y	.	208. <link>Als vierzig Tag nach Ostern</link>, <small>BWV 266</small> 
 kern/chor209.krn	209	Y	.	209. <link>Dir, dir, Jehova will ich singen</link>, <small>BWV 299</small> 
-kern/chor210.krn	210	Y	.	210. <link>Christe, du Beistand deiner Kreuzgemeinde</link>, <small>BWV 275</small> 
+kern/chor210.krn	210	Y	.	210. <link>Christe, du Beistand deiner Kreuzgemeinde</link>, <small>BWV 275</small> (Dorian)
 kern/chor211.krn	211	Y	.	211. <link>Weltlich Ehr und zeitlich Gut</link>, <small>BWV 426</small> 
 kern/chor212.krn	212	Y	.	212. <link>Herr, ich dank an jene Zeit</link>, <small>BWV 329</small> 
 kern/chor213.krn	213	Y	.	213. <link>O wie selig ihr doch, ihr Frommen</link>, <small>BWV 405</small> 
@@ -218,7 +218,7 @@ kern/chor214.krn	214	Y	.	214. <link>Mitten wir im Leben sind</link>, <small>BWV 
 kern/chor215.krn	215	Y	.	215. <link>Verleih uns Frieden gn&auml;diglich</link>, <small>BWV 126/6</small> 
 kern/chor216.krn	216	Y	.	216. <link>Es ist genug! so nimm Herr</link>, <small>BWV 60/5</small> 
 kern/chor217.krn	217	Y	.	217. <link>Ach Gott, wie manches Herzeleid</link>, <small>BWV 153/9</small> 
-kern/chor218.krn	218	Y	.	218. <link>La&szlig;, o Herr, dein Ohr sich neigen</link>, <small>BWV 372</small> 
+kern/chor218.krn	218	Y	.	218. <link>La&szlig;, o Herr, dein Ohr sich neigen</link>, <small>BWV 372</small> (Dorian)
 kern/chor219.krn	219	Y	.	219. <link>O wie selig seid ihr doch, ihr Frommen</link>, <small>BWV 406</small> 
 kern/chor220.krn	220	Y	.	220. <link>Sollt ich meinem Gott nicht singen</link>, <small>BWV 413</small> 
 kern/chor221.krn	221	Y	.	221. <link>Herr, straf mich nicht in deinem Zorn</link>, <small>BWV 338</small> 
@@ -232,19 +232,19 @@ kern/chor228.krn	228	Y	.	228. <link>Danket dem Herren, denn er ist sehr freundli
 kern/chor229.krn	229	Y	.	229. <link>Ich danke dir, o Gott, in deinem Throne</link>, <small>BWV 350</small> 
 kern/chor230.krn	230	Y	.	230. <link>Christ, der du bist der helle Tag</link>, <small>BWV 273</small> 
 kern/chor231.krn	231	Y	.	231. <link>Die Nacht ist kommen</link>, <small>BWV 296</small> (Mixolydian)
-kern/chor232.krn	232	Y	.	232. <link>Die Sonn hat sich mit ihrem Glanz</link>, <small>BWV 297</small> 
+kern/chor232.krn	232	Y	.	232. <link>Die Sonn hat sich mit ihrem Glanz</link>, <small>BWV 297</small> (Dorian)
 kern/chor233.krn	233	Y	.	233. <link>Werde munter, mein Gem&uuml;te</link>, <small>BWV 154/3</small> 
 kern/chor234.krn	234	Y	.	234. <link>Gott lebet noch</link>, <small>BWV 320</small> 
 kern/chor235.krn	235	Y	.	235. <link>Heilig, heilig</link>, <small>BWV 325</small> 
 kern/chor236.krn	236	Y	.	236. <link>O Jesu, du mein Br&auml;utigam</link>, <small>BWV 335</small> 
-kern/chor237.krn	237	Y	.	237. <link>Was betr&uuml;bst du dich, mein Herze</link>, <small>BWV 423</small> 
+kern/chor237.krn	237	Y	.	237. <link>Was betr&uuml;bst du dich, mein Herze</link>, <small>BWV 423</small> (Dorian)
 kern/chor238.krn	238	Y	.	238. <link>Es wind schier der letzte Tag</link>, <small>BWV 310</small> 
 kern/chor239.krn	239	Y	.	239. <link>Den Veter dort oben</link>, <small>BWV 292</small> 
 kern/chor240.krn	240	Y	.	240. <link>Nun sich der Tag geendet hat</link>, <small>BWV 396</small> 
-kern/chor241.krn	241	Y	.	241. <link>Was willst du dich, o meine Seele</link>, <small>BWV 425</small> 
+kern/chor241.krn	241	Y	.	241. <link>Was willst du dich, o meine Seele</link>, <small>BWV 425</small> (Dorian)
 kern/chor242.krn	242	Y	.	242. <link>Wie bist du, Seele, in mir so gar betr&uuml;bt</link>, <small>BWV 435</small> 
 kern/chor243.krn	243	Y	.	243. <link>Jesu, du mein liebstes Leben</link>, <small>BWV 356</small> 
-kern/chor244.krn	244	Y	.	244. <link>Jesu, Jesu, du bist mein</link>, <small>BWV 357</small> 
+kern/chor244.krn	244	Y	.	244. <link>Jesu, Jesu, du bist mein</link>, <small>BWV 357</small> (Dorian)
 kern/chor245.krn	245	Y	.	245. <link>Christe, der du bist Tag und Licht</link>, <small>BWV 274</small> 
 kern/chor246.krn	246	Y	.	246. <link>Singt dem Herrn ein neues Lied</link>, <small>BWV 411</small> 
 kern/chor247.krn	247	Y	.	247. <link>Wenn wir in h&ouml;chsten N&ouml;ten sein</link>, <small>BWV 432</small> 
@@ -262,7 +262,7 @@ kern/chor258.krn	258	Y	.	258. <link>Mein' Augen schlie&szlig; ich jetzt</link>, 
 kern/chor259.krn	259	Y	.	259. <link>Verleih uns Frieden gn&auml;diglich</link>, <small>BWV 42/7</small> 
 kern/chor260.krn	260	Y	.	260. <link>Es ist gewi&szlig;lich an der Zeit</link>, <small>BWV 307</small> 
 kern/chor261.krn	261	Y	.	261. <link>Christ lag in Todesbanden</link>, <small>BWV 158/4 (279)</small> 
-kern/chor262.krn	262	Y	.	262. <link>Ach Gott vom Himmel sieh darein</link>, <small>BWV 2/6</small> 
+kern/chor262.krn	262	Y	.	262. <link>Ach Gott vom Himmel sieh darein</link>, <small>BWV 2/6</small> (Dorian)
 kern/chor263.krn	263	Y	.	263. <link>Jesu, meine Freude</link>, <small>BWV 227/1</small> 
 kern/chor264.krn	264	Y	.	264. <link>Jesu meines Herzens Freud</link>, <small>BWV 361</small> 
 kern/chor265.krn	265	Y	.	265. <link>Was mein Gott will, das g'schen allzeit</link>, <small>BWV 144/6</small> 
@@ -302,7 +302,7 @@ kern/chor298.krn	298	Y	.	298. <link>Weg, mein Herz, mit den Gedanken</link>, <sm
 kern/chor299.krn	299	Y	.	299. <link>Meinen Jesum la&szlig; ich nicht, weil</link>, <small>BWV 380</small> 
 kern/chor300.krn	300	Y	.	300. <link>Warum betr&uuml;bst du dich, mein Herz</link>, <small>BWV 421</small> 
 kern/chor301.krn	301	Y	.	301. <link>Ach lieben Christen, seid getrost</link>, <small>BWV 114/7</small> 
-kern/chor302.krn	302	Y	.	302. <link>Hilf, Gott, la&szlig; mir's gelingen</link>
+kern/chor302.krn	302	Y	.	302. <link>Hilf, Gott, la&szlig; mir's gelingen</link> (Dorian)
 kern/chor303.krn	303	Y	.	303. <link>Herr Christ, der ein'ge Gotts Sohn</link>, <small>BWV 96/6</small> 
 kern/chor304.krn	304	Y	.	304. <link>Auf meinen lieben Gott</link>, <small>BWV 5/7</small> 
 kern/chor305.krn	305	Y	.	305. <link>Wie sch&ouml;n leuchtet der Morgenstern</link>
@@ -369,7 +369,7 @@ kern/chor365.krn	365	Y	.	365. <link>Jesu meiner Seelen Wonne</link>, <small>BWV 
 kern/chor366.krn	366	Y	.	366. <link>O Welt, sieh hier dein Leben</link>, <small>BWV 394</small> 
 kern/chor367.krn	367	Y	.	367. <link>Befiehl du deine Wege</link>, <small>BWV 271</small> (Phrygian)
 kern/chor368.krn	368	Y	.	368. <link>Hilf, Herr Jesu, la&szlig; gelingen</link>, <small>BWV 248/42</small> 
-kern/chor369.krn	369	Y	.	369. <link>Jesu, der du meine Seele</link>, <small>BWV 354</small> 
+kern/chor369.krn	369	Y	.	369. <link>Jesu, der du meine Seele</link>, <small>BWV 354</small> (Dorian)
 kern/chor370.krn	370	Y	.	370. <link>Kommt her zu mir, spricht Gottes Sohn</link>, <small>BWV 74/8</small> 
 kern/chor371.krn	371	Y	.	371. <link>Christ lag in Todesbanden</link>, <small>BWV 278</small> 
 *-	*-	*-	*-	*-

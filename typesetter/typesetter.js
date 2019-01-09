@@ -379,8 +379,11 @@ function displayHumdrumNotationPluginExample(opts) {
    		output += '   appendText: "' + opts.appendText + '",\n';
 		}
 	}
-	if (opts.spacingStaff) {
+	if (typeof opts.spacingStaff !== "undefined" && opts.spacingStaff != 8) {
 		output += "   spacingStaff: " + opts.spacingStaff + ",\n";
+	}
+	if (typeof opts.spacingSystem !== "undefined" && opts.spacingSystem != 3) {
+		output += "   spacingSystem: " + opts.spacingSystem + ",\n";
 	}
 	if (opts.filter) {
 		output += '   filter: "' + opts.filter + '",\n';

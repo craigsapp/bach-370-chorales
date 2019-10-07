@@ -269,7 +269,6 @@ function displayNotation(opts) {
 		// not displayHumdrum(), which will ignore it.
 		options.targetWidth = opts.targetWidth;
 		options.file = opts.file;
-console.log("OPTIONS", options);
 		displayHumdrum(options);
 	
 		// Post-processing to update the webpage related to
@@ -292,6 +291,12 @@ console.log("OPTIONS", options);
 function updateMeasureNumberRanges() {
 	var element = document.querySelector("#main-humdrum");
 	var text = element.textContent;
+	if (text === "") {
+		// The data is not yet available: wait 0.1 seconds and
+		// try again.
+		setTimeout(function() { updateMeasureNumberRanges(); }, 100);
+		return;
+	}
 	CURRENTWORK.parse(text);
 	var measures = CURRENTWORK.getMeasureNumbers();
 	if (measures.length == 0) {

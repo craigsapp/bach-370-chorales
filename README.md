@@ -17,7 +17,7 @@ von Johann Sebastian Bach. 4th ed. by Alfred Dörffel. Breitkopf &
 Härtel, Leipzig [c. 1875]. 178 pp. Plate Number: V.A.10. Retypeset
 c. 1915 as Edition Breitkopf 10. Reprinted by Associated Music Publishers,
 Inc., New York [c. 1940].  A scan of the original edition can be viewed on
-[IMSLP](https://imslp.org/wiki/371_Vierstimmige_Choralges%C3%A4nge_(Bach%2C_Johann_Sebastian)).
+[IMSLP](https://imslp.org/wiki/Special:ReverseLookup/495149)).
 
 The source edition has 371 chorales, but chorale 150 is not a four-part
 chorale, so it has been omitted from this analytic edition of the

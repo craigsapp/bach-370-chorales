@@ -4,7 +4,7 @@
 !!!OTL@@DE: Ach Gott und Herr
 !!!SCT: BWV 48/3
 !!!PC#: 279
-!!!OPR: Cantata BWV 48 Ich elender Mensch, wer wird mich erl&ouml;sen
+!!!OPR: Cantata BWV 48 Ich elender Mensch, wer wird mich erlösen
 !!!hymn: Leipzig 1625
 !!!AGN: chorale
 **kern	**kern	**kern	**kern
@@ -84,13 +84,11 @@
 .	4d;	.	.
 ==	==	==	==
 *-	*-	*-	*-
-!!!hum2abc: -Q ''
 !!!title: @{PC#}. @{OTL@@DE}
-!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
-!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
-!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
-!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
-!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
-!!!PC#2: 3 (Budapest/Imre, 1982)
-!!!EED:  Craig Stuart Sapp
-!!!EEV:  2009/05/22
+!!!PC#-czarnecki:
+!!!PC#-imre: 3 (Budapest/Imre, 1982)
+!!!YOR1: 371 vierstimmige Choralgesänge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und Härtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".
+!!!EED: Craig Stuart Sapp
+!!!EEV: 2009/05/22

@@ -1,7 +1,7 @@
 !!!!SEGMENT: chor186.krn
 !!!COM: Bach, Johann Sebastian
 !!!CDT: 1685/02/21/-1750/07/28/
-!!!OTL@@DE: Ach Gott, erh&ouml;r mein Seufzen
+!!!OTL@@DE: Ach Gott, erhör mein Seufzen
 !!!SCT: BWV 254
 !!!PC#: 186
 !!!hymn: Frankfurt, 1662
@@ -106,13 +106,12 @@
 4DD;	4F#;	4A;	4d;
 ==	==	==	==
 *-	*-	*-	*-
-!!!hum2abc: -Q ''
 !!!title: @{PC#}. @{OTL@@DE}
-!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
-!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
-!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
-!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
-!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!PC#-czarnecki:
+!!!PC#-imre: 2 (Budapest/Imre, 1982)
+!!!YOR1: 371 vierstimmige Choralgesänge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und Härtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".
 !!!PC#2: 2 (Budapest/Imre, 1982)
-!!!EED:  Craig Stuart Sapp
-!!!EEV:  2009/05/22
+!!!EED: Craig Stuart Sapp
+!!!EEV: 2009/05/22

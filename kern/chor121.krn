@@ -5,6 +5,7 @@
 !!!SCT: BWV 244/40
 !!!PC#: 121
 !!!AGN: chorale
+!!!OMB: plate VA10 (reprint) and 12021 (original) seem a bit different, so check
 **kern	**kern	**kern	**kern
 *ICvox	*ICvox	*ICvox	*ICvox
 *Ibass	*Itenor	*Ialto	*Isoprn
@@ -15,6 +16,7 @@
 *M4/4	*M4/4	*M4/4	*M4/4
 *met(c)	*met(c)	*met(c)	*met(c)
 *MM100	*MM100	*MM100	*MM100
+!!xywh-#64:149,24,2722,497
 =1-	=1-	=1-	=1-
 4F#	8f#L	8aL	4cc#
 .	8eJ	8g#J	.
@@ -86,6 +88,7 @@
 4Gn	8eL	4b	8ddL
 .	8dJ	.	8eeJ
 =10	=10	=10	=10
+!!xywh-#64:127,465,2727,462
 4E	4gn	4b	4cc#
 4F#	8f#L	4a#	4cc#
 .	8eJ	.	.

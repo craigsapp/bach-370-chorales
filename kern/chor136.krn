@@ -15,6 +15,7 @@
 *M4/4	*M4/4	*M4/4	*M4/4
 *met(c)	*met(c)	*met(c)	*met(c)
 *MM100	*MM100	*MM100	*MM100
+!!xywh-#72:158,35,2768,522
 4GG	4B	4d	4g
 =1	=1	=1	=1
 4GG	4d	4g	4b
@@ -64,6 +65,7 @@
 8GL	4G	4d	4b
 8FJ	.	.	.
 =7	=7	=7	=7
+!!xywh-#72:145,527,918,461
 8EL	8GL	4e	4ccnX
 8F#J	8AJ	.	.
 4G	4B	8dL	4b

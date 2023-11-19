@@ -17,6 +17,7 @@
 *D:	*D:	*D:	*D:
 *M3/4	*M3/4	*M3/4	*M3/4
 *MM100	*MM100	*MM100	*MM100
+!!xywh-#61:156,449,2666,465
 8dL	4f#	4a	4dd
 8c#J	.	.	.
 =1	=1	=1	=1
@@ -86,6 +87,7 @@
 4F#	4A#	8eL	.
 .	.	8f#J	.
 =12	=12	=12	=12
+!!xywh-#61:109,898,2712,428
 2BB;	2B;	2d;	2b;
 4C#	8G#L	4e	4ee
 .	8AJ	.	.
@@ -155,6 +157,7 @@
 8GL	4d	.	4ff#
 8F#J	.	.	.
 =24	=24	=24	=24
+!!xywh-#61:106,1294,2751,475
 8EL	4G	4b]	2gg
 8DJ	.	.	.
 8CL	[2e	8aL	.
@@ -169,6 +172,7 @@
 4D	.	.	8ff#
 .	8c	.	8eeJ
 !! 5-voice texture on first beat in this measure in Edition Breitkopf version:
+!! Also differs between plates VA10 and 12021
 !!Bass2	Bass1	Tenor	Alto	Soprano
 !!=25	=25	=25	=25
 !!4FF#\	8F#\L	4e]	8a\L	4.aa/

@@ -108,3 +108,4 @@
 !!!EEV: 2023/11/19
 !!!OMB: VA10 has written out repeats?
 !!!filter-keyboard: satb2gs
+!!!filter-ctonic: transpose -k c

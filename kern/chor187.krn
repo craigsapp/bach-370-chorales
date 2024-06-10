@@ -94,5 +94,8 @@
 !!!EED: Craig Stuart Sapp
 !!!EEV: 2009/05/22
 !!!filter-keyboard: satb2gs
+<<<<<<< HEAD
 !!!filter-ctonic: transpose -k c
+=======
+>>>>>>> a199df6 (Add pitch-range embedded filters.)
 !!!filter-pitch-ranges: prange -a

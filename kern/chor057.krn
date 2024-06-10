@@ -85,3 +85,4 @@
 !!!EEV: 2020/09/05
 !!!filter-keyboard: satb2gs
 !!!filter-ctonic: transpose -k c
+!!!filter-pitch-ranges: prange -a

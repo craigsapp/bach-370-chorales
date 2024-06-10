@@ -122,3 +122,4 @@
 !!!EEV: 2009/05/22
 !!!filter-keyboard: satb2gs
 !!!filter-ctonic: transpose -k c
+!!!filter-pitch-ranges: prange -a

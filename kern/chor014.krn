@@ -130,3 +130,4 @@
 !!!ONB: Fixed alignment error in measure 10 on 2011/02/07/.
 !!!filter-keyboard: satb2gs
 !!!filter-ctonic: transpose -k c
+!!!filter-pitch-ranges: prange -a

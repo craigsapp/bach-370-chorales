@@ -110,3 +110,4 @@
 !!!OMB: VA10 has written out repeats?
 !!!filter-keyboard: satb2gs
 !!!filter-ctonic: transpose -k c
+!!!filter-pitch-ranges: prange -a

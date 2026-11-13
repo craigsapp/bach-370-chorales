@@ -42,7 +42,8 @@
 .	16f#LL	8a	.
 .	16gJJ	.	.
 =4	=4	=4	=4
-4D	4f#	4a	4b
+4D	8f#L	4a	4b
+.	8fJ	.	.
 4E	8eL	4g#X	4b
 .	8dJ	.	.
 2AA;	2c#;	2e;	2a;
@@ -72,7 +73,8 @@
 .	.	16bLL	.
 .	.	16ccJJ	.
 =8	=8	=8	=8
-4G	4d	4b	4ee
+4G	4d	8bL	4ee
+.	.	8b-J	.
 4A	4c#X	8aL	4ee
 .	.	8gJ	.
 2D;	2A;	2f#;	2dd;
@@ -117,7 +119,7 @@
 !!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
 !!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
 !!!EED: Craig Stuart Sapp
-!!!EEV: 2009/05/22
+!!!EEV: 2026/11/13
 !!!filter-keyboard: satb2gs
 !!!filter-ctonic: transpose -k c
 !!!filter-pitch-ranges: prange -a
